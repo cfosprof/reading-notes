@@ -25,7 +25,7 @@ My reading notes for Codefellows
 * [link2](instagram.com/hobowithanapple)
 </details>
 
-## <details><summary>[Code 401 - Advanced Software Development](/)</summary></details>
+<details><summary>[Code 401 - Advanced Software Development](/)</summary></details>
  * [link1](/)
  * [link2](/)
 
