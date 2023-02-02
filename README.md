@@ -9,12 +9,12 @@ My reading notes for Codefellows
 * [link2](instagram.com/hobowithanapple)
 </details>
 
-<details>
-## <summary>[Code 201 - Foundations of Software Development](/)</summary>
+## <details><summary>[Code 201 - Foundations of Software Development](/)</summary>
 
 * [link1](instagram.com)
 
 * [link2](instagram.com/hobowithanapple)
+
 </details>
 
 ## <details><summary>[Code 301 - Intermediate Software Development](/)</summary>
