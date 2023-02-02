@@ -9,8 +9,8 @@ My reading notes for Codefellows
 * [link2](instagram.com/hobowithanapple)
 </details>
 
-<h1><details>
-    <summary>Code 201 - Foundations of Software Development</summary></h1>
+<details>
+    <summary>Code 201 - Foundations of Software Development</summary>
 
 #### [link1](instagram.com)
 
