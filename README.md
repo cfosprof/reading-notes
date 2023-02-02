@@ -5,7 +5,7 @@ My reading notes for Codefellows
 <!--[Site](https://cfosprof.github.io/reading-notes/)-->
 
 ## <details> <summary> Code 102 - Intro to Software Development </summary>
-okay
+    okay
 </details>
 
 ## Code 201 - Foundations of Software Development
