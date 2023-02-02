@@ -9,7 +9,7 @@ My reading notes for Codefellows
 * [link2](instagram.com/hobowithanapple)
 </details>
 
-## <details><summary>[Code 102 - Intro to Software Development](facebook.com)</summary>
+## <details><summary>[Code 102 - Intro to Software Development](https://facebook.com)</summary>
 * [link1](instagram.com)
 * [link2](instagram.com/hobowithanapple)
 </details>
