@@ -9,7 +9,7 @@ My reading notes for Codefellows
 * [link2](instagram.com/hobowithanapple)
 </details>
 
-## <details><summary>[Code 201 - Foundations of Software Development](/)</summary>
+## <details><summary>Code 201 - Foundations of Software Development</summary>
 <p>
 
 #### [link1](instagram.com)
@@ -23,7 +23,7 @@ My reading notes for Codefellows
 * [link2](instagram.com/hobowithanapple)
 </details>
 
-## <details><summary>[## Code 401 - Advanced Software Development](/)</summary>
+## <details><summary>[Code 401 - Advanced Software Development](/)</summary>
  * [link1](/)
  * [link2](/)
 </details>
