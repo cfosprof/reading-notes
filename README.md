@@ -12,7 +12,7 @@ My reading notes for Codefellows
 <details>
  <summary>Code 201 - Foundations of Software Development</summary>
 
-#### [link1](instagram.com)
+  #### [link1](instagram.com)
 
 #### * [link2](instagram.com/hobowithanapple)
 
