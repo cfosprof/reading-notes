@@ -4,8 +4,14 @@ My reading notes for Codefellows
 
 <!--[Site](https://cfosprof.github.io/reading-notes/)-->
 
-## <details> <summary> Code 102 - Intro to Software Development </summary>
-    okay
+## <details><summary>Code 102 - Intro to Software Development</summary>
+* [link1](instagram.com)
+* [link2](instagram.com/hobowithanapple)
+</details>
+
+## <details><summary>[Code 102 - Intro to Software Development](facebook.com)</summary>
+* [link1](instagram.com)
+* [link2](instagram.com/hobowithanapple)
 </details>
 
 ## Code 201 - Foundations of Software Development
