@@ -22,7 +22,7 @@ My reading notes for Codefellows
 </details>
 
 ## <details><summary>[## Code 401 - Advanced Software Development](/)</summary>
-* [link1](/)
-* [link2](/)
+ * [link1](/)
+ * [link2](/)
 </details>
 
