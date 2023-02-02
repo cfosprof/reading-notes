@@ -10,7 +10,7 @@ My reading notes for Codefellows
 </details>
 
 <details>
-    <summary>Code 201 - Foundations of Software Development</summary>
+    <h1><summary>Code 201 - Foundations of Software Development</summary></h1>
 
 #### [link1](instagram.com)
 
