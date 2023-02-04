@@ -4,6 +4,8 @@
 
 My reading notes for Codefellows
 
+Text in <details> and <summary> Element is not processes byJekyll's markup converter so the text is rendered as plain text. 
+
 <!--https://cfosprof.github.io/reading-notes-->
 
 <!-- ## <details><summary>[Code 102 - Intro to Software Development](https://facebook.com)</summary>
@@ -150,7 +152,24 @@ My reading notes for Codefellows
 
 </details>
 
-&nbsp;<details>&nbsp;<summary>Click me</summary>&nbsp;<p>
+<details>&nbsp;<summary>Click me</summary>&nbsp;<p>
+  ## Heading
+  
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Code
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+
+</p></details>
+
+<details><summary>Click me</summary>&nbsp;<p>
   ## Heading
   
   1. Foo
