@@ -2,7 +2,7 @@
 
 # Reading Notes
 
-My reading notes for Codefellows
+Hello, and welcome to my reading notes for Codefellows
 
 <details markdown="block"><summary>Courses</summary>
 
