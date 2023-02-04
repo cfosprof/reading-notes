@@ -138,6 +138,10 @@ My reading notes for Codefellows
   <ol>
   <li>Foo</li>
   <li>Bar</li>
+     <ul>
+     <li>Baz</li>
+     <li>Qux</li>
+     </ul>
   </ol>
   
 
