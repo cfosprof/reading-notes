@@ -132,3 +132,25 @@ My reading notes for Codefellows
 </details>
 
 {::options parse_block_html="false" /}
+
+{::options parse_block_html="true" /}
+
+<details>
+<summary>Click me</summary><p>
+
+  <h1>Heading</h1>
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Code
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+
+</p></details>
+
+{::options parse_block_html="false" /}
