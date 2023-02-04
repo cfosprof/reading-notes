@@ -4,7 +4,7 @@
 
 My reading notes for Codefellows
 
-Text in <details> and <summary> Element is not processes byJekyll's markup converter so the text is rendered as plain text. 
+Text in details and summary Element is not processes byJekyll's markup converter so the text is rendered as plain text. 
 
 <!--https://cfosprof.github.io/reading-notes-->
 
