@@ -135,15 +135,11 @@ My reading notes for Codefellows
 <details><summary>Click me</summary>
 
   <h1>Heading</h1>
-  <ol>
-  <li>Foo</li>
-  <li>Bar</li>
-     <ul>
-     <li>Baz</li>
-     <li>Qux</li>
-     </ul>
-  </ol>
   
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
 
   ### Some Code
   ```js
