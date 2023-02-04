@@ -152,7 +152,7 @@ Text in details and summary Element is not processes byJekyll's markup converter
 
 </details>
 
-<details>&nbsp;<summary>Click me</summary>&nbsp;<p>
+<details>&nbsp;<summary>Click me</summary>&nbsp;
   ## Heading
   
   1. Foo
@@ -167,9 +167,9 @@ Text in details and summary Element is not processes byJekyll's markup converter
   }
   ```
 
-</p></details>
+</details>
 
-<details><summary>Click me</summary>&nbsp;<p>
+<details><summary>Click me</summary>&nbsp;
   ## Heading
   
   1. Foo
@@ -184,4 +184,7 @@ Text in details and summary Element is not processes byJekyll's markup converter
   }
   ```
 
-</p></details>
+</details>
+
+Term
+: This is the definition of the first term
