@@ -4,6 +4,8 @@
 
 My reading notes for Codefellows
 
+<details><h1><summary>Courses</summary></h1>
+
 ## [Code 102 - Intro to Software Development](/102/102.md)
 
 ## [Code 201 - Foundations of Software Development](/201/201.md)
