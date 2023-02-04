@@ -79,7 +79,9 @@ My reading notes for Codefellows
 
 </p></details>
 
-&nbsp;<details><summary>Click me</summary>
+{::options parse_block_html="true" /}
+
+<details><summary>Click me</summary>
 
   ### Heading
   1. Foo
@@ -95,6 +97,9 @@ My reading notes for Codefellows
   ```
 
 </details>
+<br/>
+
+{::options parse_block_html="false" /}
 
 &nbsp;<details><summary>Click me</summary><p>
 
