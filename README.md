@@ -185,6 +185,3 @@ Text in details and summary Element is not processes byJekyll's markup converter
   ```
 
 </details>
-
-Term
-: This is the definition of the first term
