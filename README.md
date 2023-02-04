@@ -4,7 +4,7 @@
 
 ![Photo of me](assets/IMG_0887.JPG)
 
-Hello, and welcome to my reading notes for **Codefellows**
+Hello, and welcome to my reading notes for **Codefellows**. I'll update these notes with the stuff I read.
 
 <details markdown="block"><summary>Courses</summary>
 
