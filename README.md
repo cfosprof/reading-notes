@@ -96,7 +96,7 @@ My reading notes for Codefellows
 
 </details>
 
-&nbsp;<details>&nbsp;<summary>Click me</summary>
+&nbsp;<details><summary>Click me</summary><p>
 
   ### Heading
   1. Foo
@@ -111,4 +111,4 @@ My reading notes for Codefellows
   }
   ```
 
-</details>
+</p></details>
