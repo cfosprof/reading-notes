@@ -46,8 +46,8 @@ My reading notes for Codefellows
   
 </details>
 
-<details>
-  <summary markdown="span">Click me</summary>
+<details open>
+  <summary>Click me</summary>
   
   ### Heading
   1. Foo
