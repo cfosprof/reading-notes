@@ -174,19 +174,19 @@ Text in details and summary Element is not processes byJekyll's markup converter
 
 <details><summary>Click me</summary>&nbsp;
   
-  ## Heading
+## Heading
   
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
+1. Foo
+2. Bar
+    * Baz
+    * Qux
 
-  ### Some Code
+### Some Code
 
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
+```js
+function logSomething(something) {
+console.log('Something', something);
+}
+```
 
 </details>
