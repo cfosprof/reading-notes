@@ -8,7 +8,7 @@ Text in `<details>` and `<summary>` elements is not processed by Jekyll's markup
 
 For example:
 
-<details><summary>Without attribute</summary>
+## <details><summary>Without attribute</summary>
 
 # Heading One
   
