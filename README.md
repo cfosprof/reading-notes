@@ -47,6 +47,7 @@ My reading notes for Codefellows
 </details>
 
 <details open>
+
   <summary>Click me</summary>
   
   ### Heading
@@ -61,5 +62,5 @@ My reading notes for Codefellows
     console.log('Something', something);
   }
   ```
-  
+
 </details>
