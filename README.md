@@ -298,7 +298,7 @@ console.log('Something', something);
 ```
 
 </details> -->
-
+<!-- 
 <details markdown="0"><summary>Click me</summary>
 
   # Heading
@@ -356,4 +356,4 @@ console.log('Something', something);
 ```
 
 </details>
-
+ -->
