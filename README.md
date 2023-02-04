@@ -28,28 +28,8 @@ My reading notes for Codefellows
 
  -->
 
-<details>
-  <summary>Click me</summary>
-  
-  ### Heading
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
+<details><summary>Click me</summary><p>
 
-  ### Some Code
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
-  
-</details>
-
-<details open>
-
-  <summary>Click me</summary>
-  
   ### Heading
   1. Foo
   2. Bar
@@ -63,4 +43,21 @@ My reading notes for Codefellows
   }
   ```
 
-</details>
+</p></details>
+
+<details open><summary>Click me</summary><p>
+
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Code
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+
+</p></details>
