@@ -4,7 +4,62 @@
 
 My reading notes for Codefellows
 
-Text in details and summary Element is not processes byJekyll's markup converter so the text is rendered as plain text. 
+Text in details and summary elements is not processed by Jekyll's markup converter, so any toggle blocks not assigned the `markdown=block` attribute will have its markdown rendered as plain text in GitHub Pages.
+
+For example:
+
+<details markdown="block"><summary>Right answer</summary>
+
+# Heading One
+  
+1. Ordered list item
+2. Ordered list item
+    * UL item
+    * UL item
+
+### Code Block
+  
+```js
+function logSomething(something) {
+console.log('Something', something);
+}
+```
+
+</details>
+
+### WIll instead drop into this
+
+<details><summary>Wrong Answer</summary>
+
+# Heading One
+  
+1. Ordered list item
+2. Ordered list item
+    * UL item
+    * UL item
+
+### Code Block
+  
+```js
+function logSomething(something) {
+console.log('Something', something);
+}
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- https://cfosprof.github.io/reading-notes
 
@@ -302,21 +357,3 @@ console.log('Something', something);
 
 </details>
 
-<details markdown="block"><summary>Click me</summary>
-
-# Heading
-  
-1. Foo
-2. Bar
-    * Baz
-    * Qux
-
-### Some Code
-  
-```js
-function logSomething(something) {
-console.log('Something', something);
-}
-```
-
-</details>
