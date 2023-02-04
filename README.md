@@ -45,7 +45,7 @@ My reading notes for Codefellows
 
 </p></details>
 
-<details open><summary>Click me</summary><p>
+&nbsp;<details open><summary>Click me</summary><p>
 
   ### Heading
   1. Foo
