@@ -6,7 +6,7 @@ My reading notes for Codefellows
 
 Text in details and summary Element is not processes byJekyll's markup converter so the text is rendered as plain text. 
 
-<!--https://cfosprof.github.io/reading-notes-->
+<!-- https://cfosprof.github.io/reading-notes
 
 <!-- ## <details><summary>[Code 102 - Intro to Software Development](https://facebook.com)</summary>
 * [link1](instagram.com)
@@ -134,6 +134,11 @@ Text in details and summary Element is not processes byJekyll's markup converter
 </details>
 
 {::options parse_block_html="false" /} -->
+
+
+
+
+<!-- 
 <details><summary>Click me</summary>
 
   <h1>Heading</h1>
@@ -236,5 +241,82 @@ function logSomething(something) {
 console.log('Something', something);
 }
 ```
+
+</details> -->
+
+<details markdown="0"><summary>Click me</summary>
+
+  # Heading
+  
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Code
+  
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+
+</details>
+
+
+<details markdown="1"><summary>Click me</summary>
+
+  # Heading
+  
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Code
+  
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+
+</details>
+
+<details markdown="span"><summary>Click me</summary>
+
+  # Heading
+  
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Code
+  
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+
+</details>
+
+<details markdown="block"s><summary>Click me</summary>
+
+  # Heading
+  
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Code
+  
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
 
 </details>
