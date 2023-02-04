@@ -28,7 +28,7 @@ My reading notes for Codefellows
 
  -->
 
-<details><summary>Click me</summary><p>
+<!-- <details><summary>Click me</summary><p>
 
   ### Heading
   1. Foo
@@ -131,10 +131,8 @@ My reading notes for Codefellows
 
 </details>
 
-{::options parse_block_html="false" /}
-
-
-<details display="inline"><summary>Click me</summary>
+{::options parse_block_html="false" /} -->
+<details><summary>Click me</summary>
 
   <h1>Heading</h1>
   
