@@ -97,11 +97,10 @@ My reading notes for Codefellows
   ```
 
 </details>
-<br/>
 
 {::options parse_block_html="false" /}
 
-&nbsp;<details><summary>Click me</summary><p>
+&nbsp;<details><summary>Click me</summary>
 
   ### Heading
   1. Foo
@@ -109,11 +108,4 @@ My reading notes for Codefellows
      * Baz
      * Qux
 
-  ### Some Code
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
-
-</p></details>
+</details>
