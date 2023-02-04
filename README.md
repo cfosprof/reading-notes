@@ -8,7 +8,7 @@ Text in `<details>` and `<summary>` elements is not processed by Jekyll's markup
 
 For example:
 
-<details markdown="block"><summary>Right answer</summary>
+<details><summary>Without attribute</summary>
 
 # Heading One
   
@@ -29,7 +29,7 @@ console.log('Something', something);
 
 ### WIll instead drop into this
 
-<details><summary>Wrong Answer</summary>
+<detail markdown="block"><summary>With attribute</summary>
 
 # Heading One
   
