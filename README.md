@@ -134,9 +134,10 @@ My reading notes for Codefellows
 {::options parse_block_html="false" /}
 
 
-<details><summary display="inline">Click me</summary>
+<details><summary>Click me</summary>
 
   <h1>Heading</h1>
+  
   1. Foo
   2. Bar
      * Baz
