@@ -4,7 +4,7 @@
 
 My reading notes for Codefellows
 
-<details><summary><h1>Courses</h1></summary>
+<details markdown="block"><summary><h1>Courses</h1></summary>
 
 ## [Code 102 - Intro to Software Development](/102/102.md)
 
