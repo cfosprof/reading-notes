@@ -135,7 +135,7 @@ My reading notes for Codefellows
 
 {::options parse_block_html="true" /}
 
-<details><summary display="inline">Click me</summary><p>
+<details><summary display="inline">Click me</summary>
 
   <h1>Heading</h1>
   1. Foo
@@ -150,6 +150,6 @@ My reading notes for Codefellows
   }
   ```
 
-</p></details>
+</details>
 
 {::options parse_block_html="false" /}
