@@ -285,38 +285,38 @@ console.log('Something', something);
 
 <details markdown="span"><summary>Click me</summary>
 
-  # Heading
-  
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
+# Heading
 
-  ### Some Code
-  
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
+1. Foo
+2. Bar
+    * Baz
+    * Qux
+
+### Some Code
+
+```js
+function logSomething(something) {
+console.log('Something', something);
+}
+```
 
 </details>
 
 <details markdown="block"><summary>Click me</summary>
 
-  # Heading
+# Heading
   
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
+1. Foo
+2. Bar
+    * Baz
+    * Qux
 
-  ### Some Code
+### Some Code
   
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
+```js
+function logSomething(something) {
+console.log('Something', something);
+}
+```
 
 </details>
