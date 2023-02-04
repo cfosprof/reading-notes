@@ -135,7 +135,7 @@ My reading notes for Codefellows
 
 {::options parse_block_html="true" /}
 
-<details><summary>Click me</summary><p>
+<details><summary display="inline">Click me</summary><p>
 
   <h1>Heading</h1>
   1. Foo
