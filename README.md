@@ -302,7 +302,7 @@ console.log('Something', something);
 
 </details>
 
-<details markdown="block"s><summary>Click me</summary>
+<details markdown="block"><summary>Click me</summary>
 
   # Heading
   
