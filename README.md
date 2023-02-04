@@ -4,7 +4,31 @@
 
 My reading notes for Codefellows
 
-# <details markdown="block"><summary><h1>Courses</h1></summary>
+# <details markdown="block"><h1><summary>Courses</summary></h1>
+
+## [Code 102 - Intro to Software Development](/102/102.md)
+
+## [Code 201 - Foundations of Software Development](/201/201.md)
+
+## [Code 301 - Intermediate Software Development](/301/301.md)
+
+## [Code 401 - Advanced Software Development](/401/401.md)
+
+</details>
+
+# <details markdown="block"><h1><summary>Courses</summary></h1>
+
+## [Code 102 - Intro to Software Development](/102/102.md)
+
+## [Code 201 - Foundations of Software Development](/201/201.md)
+
+## [Code 301 - Intermediate Software Development](/301/301.md)
+
+## [Code 401 - Advanced Software Development](/401/401.md)
+
+</details>
+
+# <details markdown="block"><summary>Courses</summary>
 
 ## [Code 102 - Intro to Software Development](/102/102.md)
 
