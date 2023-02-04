@@ -84,7 +84,7 @@ My reading notes for Codefellows
 <details>
 <summary>Click me</summary>
 
-  ### Heading
+  <h1>Heading</h1>
   1. Foo
   2. Bar
      * Baz
@@ -110,3 +110,25 @@ My reading notes for Codefellows
      * Qux
 
 </details>
+
+{::options parse_block_html="true" /}
+
+<details>
+<summary>Click me</summary>
+
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Code
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+
+</details>
+
+{::options parse_block_html="false" /}
