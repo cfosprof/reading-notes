@@ -133,7 +133,6 @@ My reading notes for Codefellows
 
 {::options parse_block_html="false" /}
 
-{::options parse_block_html="true" /}
 
 <details><summary display="inline">Click me</summary>
 
@@ -151,5 +150,3 @@ My reading notes for Codefellows
   ```
 
 </details>
-
-{::options parse_block_html="false" /}
