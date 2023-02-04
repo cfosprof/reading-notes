@@ -4,7 +4,7 @@
 
 My reading notes for Codefellows
 
-<!--[Site](https://cfosprof.github.io/reading-notes/)-->
+<!--https://cfosprof.github.io/reading-notes-->
 
 <!-- ## <details><summary>[Code 102 - Intro to Software Development](https://facebook.com)</summary>
 * [link1](instagram.com)
@@ -149,3 +149,20 @@ My reading notes for Codefellows
   ```
 
 </details>
+
+&nbsp;<details>&nbsp;<summary>Click me</summary>&nbsp;<p>
+  ## Heading
+  
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Code
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+
+</p></details>
