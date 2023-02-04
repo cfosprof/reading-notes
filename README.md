@@ -144,6 +144,7 @@ Text in details and summary Element is not processes byJekyll's markup converter
      * Qux
 
   ### Some Code
+  
   ```js
   function logSomething(something) {
     console.log('Something', something);
@@ -153,6 +154,7 @@ Text in details and summary Element is not processes byJekyll's markup converter
 </details>
 
 <details>&nbsp;<summary>Click me</summary>&nbsp;
+  
   ## Heading
   
   1. Foo
@@ -161,6 +163,7 @@ Text in details and summary Element is not processes byJekyll's markup converter
      * Qux
 
   ### Some Code
+  
   ```js
   function logSomething(something) {
     console.log('Something', something);
@@ -170,6 +173,7 @@ Text in details and summary Element is not processes byJekyll's markup converter
 </details>
 
 <details><summary>Click me</summary>&nbsp;
+  
   ## Heading
   
   1. Foo
@@ -178,6 +182,7 @@ Text in details and summary Element is not processes byJekyll's markup converter
      * Qux
 
   ### Some Code
+
   ```js
   function logSomething(something) {
     console.log('Something', something);
