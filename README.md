@@ -18,6 +18,8 @@ Hello, and welcome to my reading notes for **Codefellows**
 
 </details>
 
+### Today I learned
+
 Text in `<details>` and `<summary>` elements is not processed by Jekyll's markup converter, so any toggle blocks not assigned the `markdown=block` attribute will have its markdown rendered as plain text in GitHub Pages.
 
 For example:
