@@ -2,7 +2,9 @@
 
 # Reading Notes
 
-Hello, and welcome to my reading notes for Codefellows
+![Photo of me](assets/IMG_0887.JPG)
+
+Hello, and welcome to my reading notes for **Codefellows**
 
 <details markdown="block"><summary>Courses</summary>
 
