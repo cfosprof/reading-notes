@@ -134,7 +134,7 @@ My reading notes for Codefellows
 {::options parse_block_html="false" /}
 
 
-<details><summary>Click me</summary>
+<details display="inline"><summary>Click me</summary>
 
   <h1>Heading</h1>
   
