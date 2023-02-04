@@ -29,7 +29,7 @@ console.log('Something', something);
 
 ### WIll instead drop into this
 
-<detail markdown="block"><summary>With attribute</summary>
+<details markdown="block"><summary>With attribute</summary>
 
 # Heading One
   
