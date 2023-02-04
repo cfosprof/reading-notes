@@ -172,6 +172,7 @@ Text in details and summary Element is not processes byJekyll's markup converter
 
 </details>
 
+{::options parse_block_html="true" /}
 <details><summary>Click me</summary>&nbsp;
   
 ## Heading
