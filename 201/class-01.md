@@ -20,7 +20,7 @@ okay
     <dt>Void Elements</dt>
     <dd>`Used to insert imbed something in a document. The image tag is an example.</dd>
     <dt>Attributes</dt>
-    <dd>Contain extra information not contained in the content. <code><details class ="toggle"></code></dd>
+    <dd>Contain extra information not contained in the content. <code><\details class ="toggle"></code></dd>
 </dl>
 
 </details>
