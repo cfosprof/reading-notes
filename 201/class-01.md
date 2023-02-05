@@ -40,11 +40,7 @@ okay
 <details markdown="block"><summary>Prompt Questions/answers</summary>
 
 
-### 1. Compose a short poem describing how HTTP sends data between computers.
-
-
-
-
+### 1. Compose a short poem describing how HTTP sends data between computers
 
 ### 2. Describe how HTML, CSS, and JS files are “parsed” in the browser.
 
@@ -90,26 +86,34 @@ It is used in the `head` of a document, where we can assign values to attributes
 
 ### 1. What is the first step to designing a Website?
 
-
+Determine what it is that you want to accomplish, how your website can help you reach those goals, and what needs to be done and in what order to reach those goals. It's referred to as project ideation.
 
 ### 2. What is the most important question to answer when designing a Website?
 
-
+What exactly do I wish to accomplish with this website?
 
 ### 1. Why should you use an `<h1>` element over a `<span>` element to display a top level heading?
 
-
+Because most browsers have user agent styleshets that will style an `<h1>` with a large font meant to look like a heading, whereas `<span>`s will not receive the same benefits.
 
 ### 2. What are the benefits of using semantic tags in our HTML?
 
+* Search engines will consider its contents as importent keywords that influence the page's search rankings.
 
+* Screenreaders can use it as a signpost to help visually impaired users navigate a page.
+
+* Finding blocks of meaningful code is much easier than searching through a bunch of `div`s.
+
+* Gives the developer an idea of what type of data will be populated.
+
+* Semantic naming mirrors proper custom element and component naming.
 
 ### 1. Describe 2 things that require JavaScript in the Browser?
 
-
+Recording any click actions and updating the page with them, or storing user variables to use later both require JS
 
 ### 2. How can you add JavaScript to an HTML document?
 
-
+By either using an internal `<script> somecode </script>` element with some JS in it or by creating an external js file with the javascript code and calling it with `<script src="jsFileNanme.js" defer></script>`
 
 </details>
