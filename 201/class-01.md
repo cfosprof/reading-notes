@@ -29,7 +29,9 @@ okay
 
 ### How to assign html class for styling
 
-```<details markdown="block"><summary>Things</summary>```
+```
+<details class="toggle"markdown="block">
+```
 
 </details>
 
