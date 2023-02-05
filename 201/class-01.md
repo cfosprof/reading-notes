@@ -23,6 +23,16 @@ okay
     <dd>Contain extra information not contained in the content. <\details class ="toggle"></dd>
 </dl>
 
+<details markdown="block"><summary>Remember</summary>
+
+### How to assign html class for styling
+
+```<details markdown="block"><summary>Things</summary>```
+
+</details>
+
+</details>
+
 </details>
 
 ## Reading Objectives
