@@ -67,3 +67,9 @@ An element name wrapped in opening and closing angle brackets. This is the begin
 ### 2. How can you add JavaScript to an HTML document?
 
 </details>
+
+<details markdown="block"><h6><summary>Things</summary></h6>
+
+okay
+
+</details>
