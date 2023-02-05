@@ -12,6 +12,7 @@ okay
 
 <details markdown="block"><summary>Prompt Questions/answers</summary>
 
+
 ### 1. Compose a short poem describing how HTTP sends data between computers.
 
 
@@ -31,21 +32,20 @@ You can use google images, there is a copyright filter that will filter out any 
 
 ### 2. Describe the Anatomy of an HTMl element.
 
-### 3. What is the Difference between <article> and <section> element tags?
+### 3. What is the Difference between `<article>` and `<section>` element tags?
 
 ### 4. What Elements does a “typical” website include?
 
 ### 5. How does metadata influence Search Engine Optimization?
 
-### 6. How is the <meta> HTML tag used when specifying metadata?
+### 6. How is the `<meta>` HTML tag used when specifying metadata?
 
 
 ### 1. What is the first step to designing a Website?
 
 ### 2. What is the most important question to answer when designing a Website?
 
-### 1. Why should you use an <h1> element over a <span> element to display a top level 
-heading?
+### 1. Why should you use an `<h1>` element over a `<span>` element to display a top level heading?
 
 ### 2. What are the benefits of using semantic tags in our HTML?
 
