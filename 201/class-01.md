@@ -12,9 +12,11 @@ okay
 
 <details markdown="block"><summary>Prompt Questions/answers</summary>
 
-1. Compose a short poem describing how HTTP sends data between computers.
+> 1. Compose a short poem describing how HTTP sends data between computers.
 
-> Learning to write poetry would distract me from the actual learning objetive here, so I'm going to ignore that part and focus on the material that matters. I understand if you feel the need to dock points,
+Learning to write poetry would distract me from the actual learning objetive here, so I'm going to ignore that part and focus on the material that matters. I understand if you feel the need to dock points.
+
+
 
 2. Describe how HTML, CSS, and JS files are “parsed” in the browser.
 
