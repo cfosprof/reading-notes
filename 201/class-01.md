@@ -68,19 +68,19 @@ An element name wrapped in opening and closing angle brackets. This is the begin
 
 </details>
 
-<details markdown="block"><summary markdown="inline"><h6>Things</h6></summary>
+<details markdown="block"><h6><summary markdown="inline">Things</summary></h6>
 
 okay
 
 </details>
 
-<details markdown="block"><summary markdown="span"><h6>Things</h6></summary>
+<details markdown="block"><h6><summary markdown="span">Things</summary></h6>
 
 okay
 
 </details>
 
-<details markdown="block"><summary markdown="1"><h6>Things</h6></summary>
+<details markdown="block"><h6><summary markdown="1">Things</summary><h6>
 
 okay
 
