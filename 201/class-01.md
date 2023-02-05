@@ -30,7 +30,7 @@ okay
 ### How to assign html class for styling
 
 ```
-<details class="toggle"markdown="block">
+<details class="toggle "markdown="block">
 ```
 
 </details>
