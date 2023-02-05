@@ -8,6 +8,18 @@ okay
 
 </details>
 
+## Terms and Concepts
+
+<details markdown="block"><summary>Terms</summary>
+
+<dl>
+    <dt>Nesting</dt>
+    <dd>Definition</dd>
+</dl>
+
+
+</details>
+
 ## Reading Objectives
 
 <details markdown="block"><summary>Prompt Questions/answers</summary>
@@ -40,7 +52,9 @@ An attribute specifies an additional value or information that will not appear i
 
 ### 2. Describe the Anatomy of an HTMl element.
 
-An element name wrapped in opening and closing angle brackets. This is the beginning of the elements impact. The content of the element, which can be text or a number of other things. Followed by the closing tag WHich is the same opening angle bracket followed by a forward slash then the element name, and then a closing angle bracket.
+1. An element name wrapped in opening and closing angle brackets. This is the beginning of the elements impact. 
+2. The content of the element, which can be text or a number of other things. 
+3. Followed by the closing tag WHich is the same opening angle bracket followed by a forward slash then the element name, and then a closing angle bracket.
 
 ### 3. What is the Difference between `<article>` and `<section>` element tags?
 
