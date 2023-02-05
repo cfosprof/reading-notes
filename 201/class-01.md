@@ -25,6 +25,8 @@ okay
 You can use google images, there is a copyright filter that will filter out any images that are copyrighted. You can also use your camera roll, or a billion other sources.
 
 ### 4. How do you create a String vs a Number in JavaScript?
+`let string = "string"`
+`let num = 45`
 
 ### 5. What is a Variable and why are they important in JavaScript?
 
