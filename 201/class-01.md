@@ -9,6 +9,7 @@ okay
 </details>
 
 
+<details markdown="block"><summary>Prompts</summary>
 
 1. Compose a short poem describing how HTTP sends data between computers.
 
@@ -48,3 +49,5 @@ heading?
 1. Describe 2 things that require JavaScript in the Browser?
 
 2. How can you add JavaScript to an HTML document?
+
+</details>
