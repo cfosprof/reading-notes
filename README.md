@@ -6,7 +6,7 @@
 
 Hello, and welcome to my reading notes for **Codefellows**. I'll update these notes with the stuff I read.
 
-<details markdown="block"><summary>Courses</summary>
+<details open="true" markdown="block"><summary>Courses</summary>
 
 ## [Code 102 - Intro to Software Development](/102/102.md)
 
