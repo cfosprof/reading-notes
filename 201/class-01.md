@@ -1,10 +1,10 @@
 # Class 1
 
-<h1><details markdown="block"><summary>Things I want to know more about</summary>
+<details markdown="block" font-size="1.5em;"><summary>Things I want to know more about</summary>
 
 okay
 
-</details></h1>
+</details>
 
 
 
