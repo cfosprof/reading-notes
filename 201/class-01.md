@@ -1,6 +1,8 @@
 # Class 1
 
-## <details markdown="block"><summary>Things I want to know more about</summary>
+## Things I want to know more about
+
+<details markdown="block"><summary>Things</summary>
 
 okay
 
