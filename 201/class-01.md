@@ -25,17 +25,26 @@ okay
 You can use google images, there is a copyright filter that will filter out any images that are copyrighted. You can also use your camera roll, or a billion other sources.
 
 ### 4. How do you create a String vs a Number in JavaScript?
+
 `let string = "string"`
 
 `let num = 45`
 
 ### 5. What is a Variable and why are they important in JavaScript?
 
+A variable is a container used to store values in. They reduce the need to reenter a specific value every time it is needed.
+
 ### 1. What is an HTML attribute?
+
+An attribute specifies an additional value or information that will not appear in the actual content itself.
 
 ### 2. Describe the Anatomy of an HTMl element.
 
+An element name wrapped in opening and closing angle brackets. This is the beginning of the elements impact. The content of the element, which can be text or a number of other things. Followed by the closing tag WHich is the same opening angle bracket followed by a forward slash then the element name, and then a closing angle bracket.
+
 ### 3. What is the Difference between `<article>` and `<section>` element tags?
+
+`<section>` Elements should only be used with generic standalone sections of a document when there isn't a more specific element to represent it. `article` elements are used as containers compoosing the composition for things like blog articles that have formatting that will be reused or syndicated for similar content in the future.
 
 ### 4. What Elements does a “typical” website include?
 
