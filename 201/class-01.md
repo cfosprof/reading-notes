@@ -77,22 +77,39 @@ An attribute specifies an additional value or information that will not appear i
 
 ### 4. What Elements does a “typical” website include?
 
+`<head>, <header>, <nav>, <main>, <article>, <section>, <div>, <aside>, <footer>, <p>`
+
+
 ### 5. How does metadata influence Search Engine Optimization?
+
+Including a description with keywords relating to the content of your page because it has the potential to help it appear higher in relelvant searches performed in search engines--although keywords are often ignored in search engines now because of spammers filling lists with irrelevant keywords.
 
 ### 6. How is the `<meta>` HTML tag used when specifying metadata?
 
+It is used in the `head` of a document, where we can assign values to attributes like name and content.
 
 ### 1. What is the first step to designing a Website?
 
+
+
 ### 2. What is the most important question to answer when designing a Website?
 
+
+
 ### 1. Why should you use an `<h1>` element over a `<span>` element to display a top level heading?
+
+
 
 ### 2. What are the benefits of using semantic tags in our HTML?
 
 
+
 ### 1. Describe 2 things that require JavaScript in the Browser?
 
+
+
 ### 2. How can you add JavaScript to an HTML document?
+
+
 
 </details>
