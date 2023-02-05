@@ -14,13 +14,14 @@ okay
 
 ### 1. Compose a short poem describing how HTTP sends data between computers.
 
-Learning to write poetry would distract me from the actual learning objetive here, so I'm going to ignore that part and focus on the material that matters. I understand if you feel the need to dock points.
 
 
 
-2. Describe how HTML, CSS, and JS files are “parsed” in the browser.
 
-3. How can you find images to add to a Website?
+### 2. Describe how HTML, CSS, and JS files are “parsed” in the browser.
+
+### 3. How can you find images to add to a Website?
+You can use google images, there is a copyright filter that will filter out any images that are copyrighted. You can also use your camera roll, or a billion other sources.
 
 4. How do you create a String vs a Number in JavaScript?
 
