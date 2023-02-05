@@ -73,3 +73,15 @@ An element name wrapped in opening and closing angle brackets. This is the begin
 okay
 
 </details>
+
+<details markdown="block"><summary markdown="span"><h6>Things</h6></summary>
+
+okay
+
+</details>
+
+<details markdown="block"><summary markdown="1"><h6>Things</h6></summary>
+
+okay
+
+</details>
