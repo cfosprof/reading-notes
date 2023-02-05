@@ -8,8 +8,9 @@ okay
 
 </details>
 
+## Reading Objectives
 
-<details markdown="block"><summary>Prompts</summary>
+<details markdown="block"><summary>Prompt Questions/answers</summary>
 
 1. Compose a short poem describing how HTTP sends data between computers.
 
