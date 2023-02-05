@@ -21,10 +21,9 @@ okay
     <dd>`Used to insert imbed something in a document. The image tag is an example.</dd>
     <dt>Attributes</dt>
     <dd>Contain extra information not contained in the content. <\details class ="toggle"></dd>
-    </br>
-
-    Okay
 </dl>
+</br>
+okay
 
 </details>
 
