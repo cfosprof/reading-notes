@@ -19,6 +19,8 @@ okay
     <dd>Block level elements are generally structural and represent sections like menus and paragraphs. Inline elements are contained within block level, and are used to emphasize smaller parts like text highlighting.</dd>
     <dt>Void Elements</dt>
     <dd>`Used to insert imbed something in a document. The image tag is an example.</dd>
+    <dt>Attributes</dt>
+    <dd>Contain extra information not contained in the content. <\details class ="toggle"></dd>
 </dl>
 
 </details>
