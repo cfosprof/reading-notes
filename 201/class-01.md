@@ -40,9 +40,15 @@ okay
 <details markdown="block"><summary>Prompt Questions/answers</summary>
 
 
-### 1. Compose a short poem describing how HTTP sends data between computers
+### 1. Describe how HTML, CSS, and JS files are “parsed” in the browser.
 
-### 2. Describe how HTML, CSS, and JS files are “parsed” in the browser.
+The browser first parses the HTML file which leads to the identification to any `<link>` or `<script>` elements that reference to any external CSS or JS documents.
+
+As it parses the HTML it requests any css or JS files found in thier perspective elements from the server and then parses the css and js from their files.
+
+The browser then generates the DOM tree from the html, an in-memory CSSOM structure from the CSS, and compiles and executes the parsed js.
+
+As the browser builds the DOM tree, styles the CSS, and executes the JS a visual representation is created on the screen that that we can see and interact with.
 
 ### 3. How can you find images to add to a Website?
 You can use google images, there is a copyright filter that will filter out any images that are copyrighted. You can also use your camera roll, or a billion other sources.
