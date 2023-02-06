@@ -110,3 +110,7 @@ It is used to provide multiple conditions for the conditional to test true and e
 `||` returns true if the condition on either side is true, and false if neither is true.
 
 </details>
+
+## Things I want to know more about
+
+There weren't a lot of specific things here that I want to know more about, but styling in general is definitley a weak point for me. I neglected both HTML and CSS when I was self-teaching and I'm beginning to understand why everything seemed so difficult then. Learning the basics is clearing up a lot of things.
