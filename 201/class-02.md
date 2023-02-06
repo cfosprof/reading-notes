@@ -57,11 +57,11 @@ padding: 5px;
 }
 ```
 
-#### What is representing the selector?
+#### * What is representing the selector?
 
-#### Which components are the CSS declarations?
+#### * Which components are the CSS declarations?
 
-#### Which components are considered properties?
+#### * Which components are considered properties?
 
 ## JS
 
