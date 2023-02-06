@@ -52,6 +52,22 @@ When using the abbreviation element you should include the title for the expande
 
 ### 1. What are ways we can apply CSS to our HTML?
 
+* External stylesheet:
+    * A separate file with a .css extension that is referenced via the HTML `<link>` element.
+    ```html
+    <head>
+        <link rel="stylesheet" href="style.css" />
+    <head>
+    <body>
+            <h1>Title</h1>
+    <body>
+
+    and then the css
+    h1 {
+        color: blue;
+    }
+    ```
+
 ### 2. Why should we avoid using inline styles?
 
 ### 3. Review the block of code below and answer the following questions:
