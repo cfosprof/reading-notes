@@ -18,49 +18,7 @@ Hello, and welcome to my reading notes for **Codefellows**. I'll update these no
 
 </details>
 
-### Today I learned
 
-Text in `<details>` and `<summary>` elements is not processed by Jekyll's markup converter, so any toggle blocks not assigned the `markdown=block` attribute will have its markdown rendered as plain text in GitHub Pages.
-
-For example:
-
-<details><summary>Without attribute</summary>
-
-# Heading One
-  
-1. Ordered list item
-2. Ordered list item
-    * UL item
-    * UL item
-
-### Code Block
-  
-```js
-function logSomething(something) {
-console.log('Something', something);
-}
-```
-
-</details>
-
-<details markdown="block"><summary>With attribute</summary>
-
-# Heading One
-  
-1. Ordered list item
-2. Ordered list item
-    * UL item
-    * UL item
-
-### Code Block
-  
-```js
-function logSomething(something) {
-console.log('Something', something);
-}
-```
-
-</details>
 
 
 
