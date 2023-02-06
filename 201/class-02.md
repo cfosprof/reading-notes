@@ -45,6 +45,13 @@ When using the abbreviation element you should include the title for the expande
     }
     ```
 
+* An internal stylesheet
+    * which includes the style element in the head
+
+* an in line style
+    * which includes the styling in the opening of the element like
+    `<h1 style="color: blue;">Hello World</h1>`
+    
 ### 2. Why should we avoid using inline styles?
 
 They're nonreusable, difficult to maintain, and make it harder to understand the code.
