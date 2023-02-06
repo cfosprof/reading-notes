@@ -62,7 +62,7 @@ When using the abbreviation element you should include the title for the expande
             <h1>Title</h1>
     <body>
 
-    and then the css
+    and then the css sheet
     h1 {
         color: blue;
     }
