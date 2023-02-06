@@ -70,6 +70,8 @@ When using the abbreviation element you should include the title for the expande
 
 ### 2. Why should we avoid using inline styles?
 
+They're nonreusable, difficult to maintain, and make it harder to understand the code.
+
 ### 3. Review the block of code below and answer the following questions:
 
 ```
@@ -81,27 +83,46 @@ padding: 5px;
 
 #### * What is representing the selector?
 
+The h2 is the selector here
+
 #### * Which components are the CSS declarations?
 
+color: black; padding: 5px;
+
 #### * Which components are considered properties?
+
+The color and padding
 
 ## JS
 
 ### 1. What data type is a sequence of text enclosed in single quote marks?
 
+A string
+
 ### 2. List 4 types of JavaScript operators.
+
+Arithmatic`+`, Assignment`=`, comparision`==`, and conditional operators like if.
 
 ### 3. Describe a real world Problem you could solve with a Function.
 
+You can write a function that automatically takes an NFL players yardage from week 1-18 and adds them all together to total out his season yardage.
 
 ### 4. An if statement checks a __ and if it evaluates to ___, then the code block will execute.
 
+Conditional True
 
 ### 5. What is the use of an else if?
 
+It is used to provide multiple conditions for the conditional to test true and execute
+
 ### 6. List 3 different types of comparison operators.
+
+`==`, `!=`, `<=`
 
 ### 7. What is the difference between the logical operator && and ||?
 
+`&&` returns true when the conditions on each side is true, and false otherwise
+
+`||` returns true if the condition on either side is true, and false if neither is true.
 
 </details>
