@@ -1,29 +1,6 @@
 # Class 2
 
-## Things I want to know more about
-
-## Terms and Concepts
-
-<details markdown="block"><summary>Terms</summary>
-
-<dl>
-    <dt></dt>
-    <dd></dd>
-    <dt></dt>
-    <dd></dd>
-    <dt></dt>
-    <dd></dd>
-    <dt></dt>
-    <dd></dd>
-</dl>
-
-</details>
-
-<details markdown="block"><summary>Remember</summary>
-
-### ThingToRemember
-
-</details>
+These topics matter because they're the basis of web development, and are key to understanding front end development.
 
 ## Reading Objectives
 
