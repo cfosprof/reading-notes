@@ -32,7 +32,6 @@ Hello, and welcome to my reading notes for **Codefellows**. I'll update these no
 
 
 
-
 <!-- https://cfosprof.github.io/reading-notes
 
 <!-- ## <details><summary>[Code 102 - Intro to Software Development](https://facebook.com)</summary>
