@@ -1,6 +1,6 @@
 # Class 2
 
-These topics matter because they're the basis of web development, and are key to understanding front end development.
+These topics matter because they're the basis of web development, and are key to understanding front end development. HTML makes up the basic structure of the page, css styles it, and JS interacts with it.
 
 ## Reading Objectives
 
@@ -51,7 +51,7 @@ When using the abbreviation element you should include the title for the expande
 * an in line style
     * which includes the styling in the opening of the element like
     `<h1 style="color: blue;">Hello World</h1>`
-    
+
 ### 2. Why should we avoid using inline styles?
 
 They're nonreusable, difficult to maintain, and make it harder to understand the code.
