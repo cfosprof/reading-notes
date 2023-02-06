@@ -57,5 +57,29 @@ padding: 5px;
 }
 ```
 
+#### What is representing the selector?
+
+#### Which components are the CSS declarations?
+
+#### Which components are considered properties?
+
+## JS
+
+### 1. What data type is a sequence of text enclosed in single quote marks?
+
+### 2. List 4 types of JavaScript operators.
+
+### 3. Describe a real world Problem you could solve with a Function.
+
+
+### 4. An if statement checks a __ and if it evaluates to ___, then the code block will execute.
+
+
+### 5. What is the use of an else if?
+
+### 6. List 3 different types of comparison operators.
+
+### 7. What is the difference between the logical operator && and ||?
+
 
 </details>
