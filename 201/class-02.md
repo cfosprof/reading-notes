@@ -45,6 +45,9 @@ The `<sup>` element is common in exponents and foot notes, the `<sub>` element i
 
 ### 4. When using the `<abbr>` element, what attribute must be added to provide the full expansion of the term?
 
+When using the abbreviation element you should include the title for the expanded form of the abbreviated term. it looks like `<abbr title="World Wide Web">WWW>` ends up looking like <abbr title="World Wide Web"
+
+
 ## CSS
 
 ### 1. What are ways we can apply CSS to our HTML?
