@@ -46,10 +46,4 @@ A function declaration is defining the function, evoking it is calling it.
 
 The parameter is the placeholder within the function that holds the values or arguments we pass in. The argument is the value we pass into the function when we call it.
 
-## Miscellaneous
-
-### 1. Pick 2 benefits to pair programming and reflect on how these benefits could help you on your coding journey.
-
-
-
 </details>
