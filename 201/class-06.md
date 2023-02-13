@@ -42,7 +42,7 @@ The Document Object Model (DOM)
 
 ### 7. Briefly describe the relationship between the DOM and JavaScript.
 
-Javascript
+Javascript manipulates the element within the DOM to chang webpages.
 
 
 </details>
