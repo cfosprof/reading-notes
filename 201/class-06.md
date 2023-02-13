@@ -1,45 +1,48 @@
 # Class 2
 
-## Things I want to know more about
-
-
-
-## Terms and Concepts
-
-<details markdown="block"><summary>Terms</summary>
-
-<dl>
-    <dt></dt>
-    <dd></dd>
-    <dt></dt>
-    <dd></dd>
-    <dt></dt>
-    <dd></dd>
-    <dt></dt>
-    <dd></dd>
-</dl>
-
-</details>
-
-<details markdown="block"><summary>Remember</summary>
-
-### ThingToRemember
-
-</details>
-
 ## Reading Objectives
 
 <details markdown="block"><summary>Prompt Questions/answers</summary>
 
 
-### 1.
+### 1.How would you describe an object to a non-technical friend you grew up with?
 
-### 2.
+an object is basically a collection of data. Much like a box holding multiple items and we can access those items through calling the box.
 
-### 3.
+### 2.What are some advantages to creating object literals?
 
-### 4. 
+They're easy to create, readable, flexible and contain any data type, reusable, and dynamic.
 
-### 5. 
+### 3.How do objects differ from arrays?
+
+Arrays are ordered lists of valuies where each item is accessible by index, where as objects are key value pairs.
+
+### 4. Give an example for when you would need to use bracket notation to access an object’s property instead of dot notation.
+
+When trying to access a dynamic value stored in a value in an objects properties.
+
+### 5. Evaluate the code below. What does the term this refer to and what is the advantage to using this?
+
+```js
+const dog = {
+  name: 'Spot',
+  age: 2,
+  color: 'white with black spots',
+  humanAge: function (){
+    console.log(`${this.name} is ${this.age*7} in human years`);
+  }
+}
+```
+
+`this` refers to the object dog, and it makes the function more flexible and reusable. 
+
+### 6. What is the DOM?
+
+The Document Object Model (DOM)
+
+### 7. Briefly describe the relationship between the DOM and JavaScript.
+
+Javascript
+
 
 </details>
