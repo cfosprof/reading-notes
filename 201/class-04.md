@@ -47,3 +47,5 @@ A function declaration is defining the function, evoking it is calling it.
 The parameter is the placeholder within the function that holds the values or arguments we pass in. The argument is the value we pass into the function when we call it.
 
 </details>
+
+

@@ -44,5 +44,41 @@ The Document Object Model (DOM)
 
 Javascript manipulates the element within the DOM to chang webpages.
 
+</details>;
 
-</details>
+
+Use curly braces and comma separated key value pairs
+
+functions that are stored in objects are reffered to as methods
+
+```js
+let myArr = ['Chris', 31, true 'student'];
+
+let person = {
+  name: 'Chris',
+  age: 31,
+  isRemote: true,
+  title: 'Student',
+}
+```
+
+calling functions
+
+dot notation:
+`object.key`
+
+or 
+
+bracket notation
+["Is Remote"]
+
+assigning values
+
+`person.interests = ['celebs', 'tattoos', 'art']`;
+
+
+```js
+
+
+
+```
