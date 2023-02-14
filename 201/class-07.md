@@ -32,6 +32,6 @@ In literals `this` refers to the object itself, in a constructor it refers to th
 
 ### 6. Explain prototypes and inheritance via an analogy from your previous work experience. NOTE: This is a very common front end developer interview question
 
-prototypes
+Obects inherit traits(properties) and characteristics(methods) from tehir parents and ancestors.
 
 </details>
