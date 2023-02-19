@@ -19,7 +19,7 @@ Flex-direction default set to row, but can be changed to column flex-direction: 
 
 Sometimes our flexbox can overflow their container and break the layout--like this issue in our cookiestand website when we implemented the input boxes.
 
-![](images/Screenshot_2023-02-18 19.22.08_SpMdwA.png)
+![sfdasd](images/Screenshot_2023-02-18 19.22.08_SpMdwA.png)
 
 
 
