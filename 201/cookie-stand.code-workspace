@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../../cookie-stand"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "cookie-stand"
+	}
+}

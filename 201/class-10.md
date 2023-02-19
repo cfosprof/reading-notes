@@ -1,11 +1,5 @@
 # Class 10
 
-<details markdown="block"><summary>Remember</summary>
-
-### ThingToRemember
-
-</details>
-
 ## Reading Objectives
 
 <details markdown="block"><summary>Prompt Questions/answers</summary>
@@ -39,4 +33,4 @@ Places in your code that you want to pause execution and identify the problems t
 
 The Call stack section shows you what code was executed to get to the current line.
 
-</details>
+</details>;
