@@ -20,6 +20,7 @@ By providing descriptive link text, clear and meaningful urls, test links with a
 
 ## CSS Layout
 
+
 ### 4. What is meant by “normal flow”? What are a few differences between block-level and inline elements?
 
 Normal flow refers to the default layout of elements on a webpage. Block elements appear one below the other, and inline elements appear one beside the other. Block level use 100% of their parent container and their height is determined by the content they contain. In line have a width determined by the content they contain, and their height is limited to the height of thier content. Block  elemeents always start with a new line break. Blocks can have specified width and height, while inline cannot have a specified height.
