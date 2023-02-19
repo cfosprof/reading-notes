@@ -1,6 +1,7 @@
 # Class 2
 ## Terms and Concepts
 
+<details markdown="block"><summary>d</summary>
 These aren't about this reading, but I'm revisiting objects for the weeks work.
 
 Object Constructors
@@ -30,6 +31,8 @@ const myObj = {
   },
 };
 
+</details>
+
 <details markdown="block"><summary>Enumerating properties</summary>
 
 ### Three ways
@@ -45,22 +48,6 @@ returns an arry of keys in the object, but not those in the prototype chain
 #### Object.getOwnPropertyNames(myObj)
 
 Returns all property names regardelss of whether they're enumerable or not.
-
-
-
-</details>
-
-
-
-<details markdown="block"><summary>Things</summary>
-
-
-
-</details>
-
-<details markdown="block"><summary>Remember</summary>
-
-### ThingToRemember
 
 
 
@@ -118,3 +105,4 @@ Srcset defines the set of images we allow the browser to choose between, and wha
 Because the browser begins preloading any images before it has any time to parse the css and JS. It makes it difficult to have responsive images ready to go.
 
 </details>
+
