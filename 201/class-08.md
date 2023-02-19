@@ -63,4 +63,4 @@ They make it easier to create responsive layouts, are more intuitive and easier 
 
 I think Flexbox will make front end a lot more accessible for me as it's the responsiveness that always seems overwhelming to me.
 
-</details>
+</details>;

@@ -1,5 +1,34 @@
 # Class 7
 
+<details markdown="block"><summary>Good to Remember</summary>
+
+```html
+We can add a caption above the table with a <caption> element
+<table>
+  <tr> //table row</tr>
+    <th>Table Heads</th>
+    <th>Define</th>
+    <th>The</th>
+    <th>Columns</th>
+  </tr>
+  <tr>
+    <td>Table datacell</td>
+    <td>Hold</td>
+    <td>the</td>
+    <td>data</td>
+  </tr>
+</table>
+
+```
+Rowspan
+colspan
+
+
+
+
+
+</details>
+
 ## Reading Objectives
 
 <details markdown="block"><summary>Prompt Questions/answers</summary>

@@ -1,5 +1,13 @@
 # Class 2
 
+<details markdown="block"><summary>Good to remember</summary>
+
+
+
+
+
+</details>
+
 ## Reading Objectives
 
 <details markdown="block"><summary>Prompt Questions/answers</summary>
