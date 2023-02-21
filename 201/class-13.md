@@ -2,9 +2,7 @@
 
 today I learned you can give your code blocks a filename in your markdown.
 
-```javascript:forLoop.js
-Regular for
-
+```js:forLoop.js
 for (let i = 0; i < 10; i++) {
   console.log(i);
 }
