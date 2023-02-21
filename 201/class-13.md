@@ -1,31 +1,15 @@
-# Class 2
+# Class 13
 
-## Things I want to know more about
+today I learned you can give your code blocks a filename in your markdown.
 
+```javascript:forLoop.javascript
+Regular for
 
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
+```
 
-## Terms and Concepts
-
-<details markdown="block"><summary>Terms</summary>
-
-<dl>
-    <dt></dt>
-    <dd></dd>
-    <dt></dt>
-    <dd></dd>
-    <dt></dt>
-    <dd></dd>
-    <dt></dt>
-    <dd></dd>
-</dl>
-
-</details>
-
-<details markdown="block"><summary>Remember</summary>
-
-### ThingToRemember
-
-</details>
 
 ## Reading Objectives
 
