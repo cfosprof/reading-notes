@@ -2,7 +2,7 @@
 
 today I learned you can give your code blocks a filename in your markdown.
 
-```java:forLoop.java
+```javascript title="for loop"
 for (let i = 0; i < 10; i++) {
   console.log(i);
 }
