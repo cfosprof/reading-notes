@@ -8,7 +8,7 @@
 
 * Cannot use yield within their body.
 
-```javascript
+``` javascript title="bubble_sort.js"
 
 () => expression
 
