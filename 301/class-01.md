@@ -1,6 +1,6 @@
 # Class 1
 
-<details markdown="block"><summary>Arrow Functions</summary>
+<details markdown="block" default="open"><summary>Arrow Functions</summary>
 
 * Arrow functions don't have their own bindings to `this` `arguments` or `super`, and should not be used as methods.
 
@@ -8,7 +8,7 @@
 
 * Cannot use yield within their body.
 
-``` js :title="bubble_sort.js"
+```javascript:test.js
 
 () => expression
 
