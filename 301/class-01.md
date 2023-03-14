@@ -36,34 +36,8 @@ param => {
 ```
 
 
-<p class="codeblock-label">test.md</p>
-
-```markdown 
-My ![foo bar](/path/to/train.jpg "title" )
-```
-\
-
 
 </details>
-
-<div class="codeblock-label">Title of Code Block</div>
-
-```language
-// Your code here
-```
-
-
-<div class="codeblock-label">Example Code Block</div>
-
-```python
-print("Hello, world!")
-```
-
-<div class="codeblock-label">Title of Code Block</div>
-
-```language
-// Your code here
-```
 
 ## Reading Objectives
 
