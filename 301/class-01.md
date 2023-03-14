@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+
 # Class 1
 
 <details markdown="block" default="open"><summary>Arrow Functions</summary>
@@ -40,12 +42,19 @@ param => {
 My ![foo bar](/path/to/train.jpg "title" )
 ```
 
+<div class="codeblock-label">Example Code Block</div>
+
+```python
+print("Hello, world!")
+```
+
+
 </details>
 
-```python {id="python-print" class="blue large" data-filename="test.py"}
-import time
+<div class="codeblock-label">Title of Code Block</div>
 
-print(2 + 2)
+```language
+// Your code here
 ```
 
 
