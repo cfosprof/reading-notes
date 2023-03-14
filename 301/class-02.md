@@ -1,116 +1,78 @@
 # Class 2
 
-These topics matter because they're the basis of web development, and are key to understanding front end development. HTML makes up the basic structure of the page, css styles it, and JS interacts with it.
+\
 
 ## Reading Objectives
 
 <details markdown="block"><summary>Prompt Questions/answers</summary>
 
-## HTML
+1. Based off the diagram, what happens first, the ‘render’ or the ‘componentDidMount’?
 
-### 1.Why is it important to use semantic elements in our HTML?
+  The render method is called first, generating the html for the component so the componentDidMount method can then take care of any additional tasks.
 
-It gives meaning to the content and structure of a webpage, makes the page more accessible to other users and search engines by clearly defining the purpose of elements in the content.
+2. What is the very first thing to happen in the lifecycle of React?
 
-### 2. How many levels of headings are there in HTML?
-
-There are 6 levels.
-
-### 3.What are some uses for the `<sup>` and `<sub>` elements?
-
-The `<sup>` element is common in exponents and foot notes, the `<sub>` element is common in chemical formulas like H<sub>2</sub>0 and footnote references.
-
-### 4. When using the `<abbr>` element, what attribute must be added to provide the full expansion of the term?
-
-When using the abbreviation element you should include the title for the expanded form of the abbreviated term. it looks like `<abbr title="World Wide Web">WWW</abbr>` ends up looking like <abbr title="World Wide Web">WWW</abbr>
+  The constructor method creates an instance of the component class.
 
 
-## CSS
+3. Put the following things in the order that they happen: componentDidMount, render, constructor, componentWillUnmount, React Updates
 
-### 1. What are ways we can apply CSS to our HTML?
+  Constructor, render, componentDidMount, React Updates, componentWillUnmount
 
-* External stylesheet:
-    * A separate file with a .css extension that is referenced via the HTML `<link>` element.
-    ```html
-    <head>
-        <link rel="stylesheet" href="style.css" />
-    <head>
-    <body>
-            <h1>Title</h1>
-    <body>
 
-    and then the css sheet
-    h1 {
-        color: blue;
-    }
-    ```
 
-* An internal stylesheet
-    * which includes the style element in the head
 
-* an in line style
-    * which includes the styling in the opening of the element like
-    `<h1 style="color: blue;">Hello World</h1>`
+4. What does componentDidMount do?
 
-### 2. Why should we avoid using inline styles?
+  It performs any additional setup that requires access to the DOM before it can take place.
 
-They're nonreusable, difficult to maintain, and make it harder to understand the code.
 
-### 3. Review the block of code below and answer the following questions:
+5. What types of things can you pass in the props?
 
-```
-h2 {
-color: black;
-padding: 5px;
-}
-```
+  Data, user info, settings. Callback functions.
 
-#### * What is representing the selector?
 
-The h2 is the selector here
+6. 7What is the big difference between props and state?
+  
+  State on the other hand, stores things like input values, open or closed detail elements, and the number of items added to a shopping cart. Propps pass data from a parent component to a child component, and are immutable and cant be changed by the child component. State is used to manage data within a component and can be changed by the component itself.
 
-#### * Which components are the CSS declarations?
 
-color: black; padding: 5px;
+7. When do we re-render our application?
 
-#### * Which components are considered properties?
+  Components are rerendered when props or state is changed.
 
-The color and padding
 
-## JS
+8. What are some examples of things that we could store in state?
 
-### 1. What data type is a sequence of text enclosed in single quote marks?
-
-A string
-
-### 2. List 4 types of JavaScript operators.
-
-Arithmatic`+`, Assignment`=`, comparision`==`, and conditional operators like if.
-
-### 3. Describe a real world Problem you could solve with a Function.
-
-You can write a function that automatically takes an NFL players yardage from week 1-18 and adds them all together to total out his season yardage.
-
-### 4. An if statement checks a __ and if it evaluates to ___, then the code block will execute.
-
-Conditional True
-
-### 5. What is the use of an else if?
-
-It is used to provide multiple conditions for the conditional to test true and execute
-
-### 6. List 3 different types of comparison operators.
-
-`==`, `!=`, `<=`
-
-### 7. What is the difference between the logical operator && and ||?
-
-`&&` returns true when the conditions on each side is true, and false otherwise
-
-`||` returns true if the condition on either side is true, and false if neither is true.
+Input values, data fetched from an api, loading status.
 
 </details>
 
 ## Things I want to know more about
 
-There weren't a lot of specific things here that I want to know more about, but styling in general is definitley a weak point for me. I neglected both HTML and CSS when I was self-teaching and I'm beginning to understand why everything seemed so difficult then. Learning the basics is clearing up a lot of things.
+
+<details markdown="block"><summary>Component Lifecycle Events</summary>
+
+### Mounting
+
+### Updating
+
+### Unmounting
+
+### Constructor
+
+### Static getDerivedStateFromProps()
+
+### render()
+
+### ComponentDidMount()
+
+### shouldComponentUpdate()
+
+### getSnapshotBeforeUpdate()
+
+### componentDidUpdate()
+
+### componentWillUnmount()
+
+</details>

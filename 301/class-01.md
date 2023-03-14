@@ -39,7 +39,25 @@ param => {
 ```
 
 
-<details markdown="block"><summary>rest parameters</summary>
+<details markdown="block"><summary>Rest Parameters</summary>
+
+The rest parameter syntax allows a function to accept an indefinite number of arguments as an array, providing a way to represent variadic functions in JavaScript.
+
+* 1
+
+* 2
+
+```javascript
+
+
+
+```
+
+
+</details>
+
+
+<details markdown="block"><summary>Default Parameters</summary>
 
 ### Headertext
 
@@ -55,6 +73,26 @@ param => {
 
 
 </details>
+
+
+
+<details markdown="block"><summary>Destructuring</summary>
+
+### Headertext
+
+* 1
+
+* 2
+
+```javascript
+
+
+
+```
+
+
+</details>
+
 
 
 
