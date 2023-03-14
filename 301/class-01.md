@@ -36,12 +36,17 @@ param => {
 
 <p class="codeblock-label">test.md</p>
 
-```markdown
+```markdown 
 My ![foo bar](/path/to/train.jpg "title" )
 ```
 
 </details>
 
+```python {id="python-print" class="blue large" data-filename="test.py"}
+import time
+
+print(2 + 2)
+```
 
 
 ## Reading Objectives
