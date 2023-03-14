@@ -10,7 +10,11 @@
 
 * Cannot use yield within their body.
 
-```javascript:test.js
+#### Syntax
+
+```javascript
+
+
 
 () => expression
 
@@ -32,8 +36,26 @@ param => {
   statements
 }
 
+```
+
+
+<details markdown="block"><summary>rest parameters</summary>
+
+### Headertext
+
+* 1
+
+* 2
+
+```javascript
+
+
 
 ```
+
+
+</details>
+
 
 
 
