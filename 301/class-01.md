@@ -34,6 +34,12 @@ param => {
 ```
 
 
+<p class="codeblock-label">test.md</p>
+
+```markdown
+My ![foo bar](/path/to/train.jpg "title" )
+```
+
 </details>
 
 
