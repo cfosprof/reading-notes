@@ -4,62 +4,39 @@
 
 <details markdown="block"><summary>Prompt Questions/answers</summary>
 
+### What is the single responsibility principle and how does it apply to components?
 
-### 1. What is a real world use case for the `alt` attribute being used in a website?
+A software engineering principle that states a component should only have one reason to change. This is a good way to keep your code clean and easy to read.
 
-It is used to provide alternative text for an image for users who are unable to view it. It's an accessiblity thing, seo thing, slow internet thing, and broken image thing.
+### What does it mean to build a ‘static’ version of your application?
 
-### 2. How can you improve accessibility of images in an HTML document?
+A version of your application without dynamic behavior. 
 
-Use descriptive alternative text, provide context, accurate file names, avoid using images to conveyu important info, and use appropriate formats.
+### Once you have a static application, what do you need to add?
 
-### 3. Provide an example of when the `figure` element would be useful in an HTML document.
+Interactivity and dynamic behavior via state and user events.
 
-They provide a semantic container for figures that clearly link them to their caption.
+### What are the three questions you can ask to determine if something is state?
 
-```html
-<figure>
-  <img
-    src="images/dinosaur.jpg"
-    alt="The head and torso of a dinosaur skeleton;
-            it has a large head with long sharp teeth"
-    width="400"
-    height="341" />
+Is it passed from a parent via props, does it remain unchange over time? Can you compute it based on any other state or props in your component?
 
-  <figcaption>
-    A T-Rex on display in the Manchester University Museum.
-  </figcaption>
-</figure>
-```
+### How can you identify where state needs to live?
 
-### 4. Describe the difference between a `gif `image and an `svg` image, pretend you are explaining to an elder in your community.
+Identify every component that rendders something based on that state, find a common owner component, and then either the common owner or a parent of theirs should own the state.
 
-A gif is a image type that shows simple animations or a series of images looping together to look lik motion. An svg image is a type of image that uses vector graphics, or math to create images rather than pixels.
+Higher-Order Functions
 
-### 5. What image type would you use to display a screenshot on your website and why?
+## What is a “higher-order function”?
 
-I think my iphone usually uses png's jpegs are also common. PNG is a lossless format, so compresses well without losing quality.
+A function that takes a function as an argument, or returns a function.
 
-### 6. Describe the difference between foreground and background colors of an HTML element, pretend you are talking to someone with no technical knowledge.
+### Explore the greaterThan function as defined in the reading. In your own words, what is line 2 of this function doing?
 
-THe color inside the html boxes are the foreground colors, and the color of the boxes themselves are the background colors. 
+Passing a value through a function that determines whether it is greater than what it's being compared to and returns true if it is the case.
 
-### 7. Your friend asks you to give his colorless blog website a touch up. How would you use color to give his blog some character?
 
-I would color his background a black color, his headers hot pink text, and probably add some photos.
+### Explain how either map or reduce operates, with regards to higher-order functions.
 
-### 8. What should you consider when choosing fonts for an HTML document?
-
-Readability, accessability, whether it's widely available, performance, and whether you like the font or not.
-
-### 9. What do `font-size`, `font-weight`, and `font-style` do to HTML text elements?
-
-`font-size` sets the size of the text
-`font-weight` sets the boldness-thickness of the text
-`font-style` sets the style of the text
-
-### 10.Describe two ways you could add spacing around the characters displayed in an `h1` element.
-
-`letter-spacing`, where you change the spacing between individual characters, `word-spacing` where you change the spacing between words.
+Map takes a function as an argument, and applies that function to each element in an array. Reduce takes a function as an argument, and applies that function to each element in an array, and returns a single value.
 
 </details>
