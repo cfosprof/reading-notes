@@ -1,66 +1,57 @@
 # Class 8
 
-The flex model
-## Reading Objectives
-
-<details markdown="block"><summary>Useful to remember</summary>
-
-![Alt text](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox/flex_terms.png)
-
-> From mozilla documentation
-
-#### Columns or Rows
-
-Flex-direction default set to row, but can be changed to column flex-direction: column
-
-#### Wrapping
-
-![Alt text](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox/flexbox-example3.png)
-
-Sometimes our flexbox can overflow their container and break the layout--like this issue in our cookiestand website when we implemented the input boxes.
-
-![Caption](images/Screenshot2329.png)
-
-When this happens we can use flex-wrap to our section rule, and also change our article to 200px
-
-We can also adjust the text from the left side of the flexbox to the right side of the flexbox with the flow-direction: row-reverse
-
-[Flexbox Cheatsheet](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+## APIs
 
 
 
+### 1. <details markdown="block"><summary>Things</summary>
 
-</details>
+Answer
 
-<details markdown="block"><summary>Prompt Questions/answers</summary>
+### 2. What does REST stand for?
 
+Answer
 
-Reading
-Learn CSS - Flexbox
+### 3. REST APIs are designed around a ____.
 
-### 1. Flexbox is designed for one-dimensional content. Explain what this means.
+Answer
 
-Flexbox is designed for one-dimensional content, or content that lies on a single axis, either horizontally or vertically.
+### 4. What is an identifier of a resource? Give an example.
 
-### 2. Explain the difference between the main axis and cross axis.
+Answer
 
-The main axis is the primary axis which the flex items are arranged. While the cross axis is the secondary axis that is perpendicular to the main axis.
+### 5. What are the most common HTTP verbs?
 
-### 3. How can using certain properties of flexbox negatively impact accessibility?
+Answer
 
-The reordering of flex items only happens for the visual order, not the logical order. THis means that it could make it inaccessible for screen readers.
+### 6. What should the URIs be based on?
 
+Answer
 
-CSS Layout - Flexbox
+### 7. Give an example of a good URI.
 
-Read up to “Flex-Flow Shorthand”
+Answer
 
-### 4. What are some advantages of using flexbox over float?
+### 8. What does it mean to have a ‘chatty’ web API? Is this a good or a bad thing?
 
-They make it easier to create responsive layouts, are more intuitive and easier to learn, and provide better allignemnt and spacing control.
+Answer
 
-### 5. How does this topic connect with your long term goals?
+### 9. What status code does a successful GET request return?
 
-I think Flexbox will make front end a lot more accessible for me as it's the responsiveness that always seems overwhelming to me.
+Answer
 
-</details>;
+### 10. What status code does an unsuccessful GET request return?
+
+Answer
+
+### 11. What status code does a successful POST request return?
+
+Answer
+
+### 12. What status code does a successful DELETE request return?
+
+Answer
+
+### 13. </details>
+
+Answer
