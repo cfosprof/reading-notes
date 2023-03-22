@@ -4,54 +4,52 @@
 
 
 
-### 1. <details markdown="block"><summary>Things</summary>
+<details markdown="block"><summary>Things</summary>
 
-Answer
+
 
 ### 2. What does REST stand for?
 
-Answer
+Answer Representational state transfer
 
 ### 3. REST APIs are designed around a ____.
 
-Answer
+Collection of resources
 
 ### 4. What is an identifier of a resource? Give an example.
 
-Answer
+A unuique string of characters that uniquely identify a resource. Api/items/itemid 
 
 ### 5. What are the most common HTTP verbs?
 
-Answer
+Get, POST, PUT, PATCH, and DELETE
 
 ### 6. What should the URIs be based on?
 
-Answer
+Nouns--the resource--and not verbs--the operations on the resource.
 
 ### 7. Give an example of a good URI.
 
-Answer
+site.com/api/items
 
 ### 8. What does it mean to have a ‘chatty’ web API? Is this a good or a bad thing?
 
-Answer
+It requires a large number of requests to perform a single operation, its inefficient and bad.
 
 ### 9. What status code does a successful GET request return?
 
-Answer
+200 OK
 
 ### 10. What status code does an unsuccessful GET request return?
 
-Answer
+404 not found
 
 ### 11. What status code does a successful POST request return?
 
-Answer
+201 created
 
 ### 12. What status code does a successful DELETE request return?
 
-Answer
+204 no content
 
-### 13. </details>
-
-Answer
+</details>
