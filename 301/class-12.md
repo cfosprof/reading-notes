@@ -1,114 +1,78 @@
 # Class 12
 
-## Things I want to know more about
+## Readings: CRUD
+
+
+<details markdown="block"><summary>Things</summary>
 
 
 
-## Terms and Concepts
-
-<details markdown="block"><summary>Terms</summary>
-
-
-```javascript
-
-Set objects
-
-`A value in a set may only occur once, and set() creates a new set object`
-
-const mySet1 = new Set();
-
-mySet1.add(1); // Set(1) { 1 }
-mySet1.add(5); // Set(2) { 1, 5 }
-mySet1.add(5); // Set(2) { 1, 5 }
-
-`forEach()`
-
-const items = ["item1", "item2", "item3"];
-const copyItems = [];
-
-// before
-for (let i = 0; i < items.length; i++) {
-  copyItems.push(items[i]);
-}
-
-// after
-items.forEach((item) => {
-  copyItems.push(item);
-});
-
-
-`filter()`
-
-Copies the values passed in that return truthie
-
-Finding prime numbers in an array
-const array = [-3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
-
-function isPrime(num) {
-  for (let i = 2; num > i; i++) {
-    if (num % i === 0) {
-      return false;
-    }
-  }
-  return num > 1;
-}
-
-console.log(array.filter(isPrime)); // [2, 3, 5, 7, 11, 13]
-
-includes() determines whether an array includes a certain value returning true or false as appropriate
-
-const arr = ["a", "b", "c"];
-
-arr.includes("c", 3); // false
-arr.includes("c", 100); // false
+<details markdown="block"><summary>Things</summary>
 
 
 
-```
+### 1. In your own words, describe what each group of status code represents: 100’s = 200’s = 300’s = 400’s = 500’s =
 
-</details>
+Answer
 
-<details markdown="block"><summary>Remember</summary>
+### 2. What is a status code 202?
 
-### ThingToRemember
+Answer
 
-</details>
+### 3. What is a status code 308?
 
-## Reading Objectives
+Answer
 
-<details markdown="block"><summary>Prompt Questions/answers</summary>
+### 4. What code would you use if an update didn’t return data to a client?
 
-JavaScript Canvas
+Answer
 
-### 1.What does the <canvas> allow a developer to acheive?
+### 5. What code would you use if a resource used to exist but no longer does?
 
-It allows you to draw 2d graphics using javascript
+Answer
 
-### 2.What is the importance of the closing `</canvas> tag?
+### 6. What is the ‘Forbidden’ status code?
 
-Any content between the opening and closing tags is fallback content that will display only if the browser doesn’t support the `<canvas>` element. 
+Answer
 
+### 7. Videos
 
-### 3.Explain what the getContext() method does.
+Answer
 
-Takes one argument--the type of context--and returns a rendered context object
+### 8. Build A REST API With Node.js, Express, & MongoDB - Quick - First 20 minutes
 
-Chart.js Documentation:
+Answer
 
-### 4.What is Chart.js and how it can be brought into your project?
+### 9. Why do we need to pull our MongoDB database string out of our server and put it into our .env?
 
-Chart provides chart types, plugins, and customization options.
+Answer
 
-### 5.List 3 different Chart types you can create using Chart.js.
+### 10. What is middleware?
 
-Area Charts, Bar Charts, and bubble charts.
+Answer
 
-### 6.What are some advantages to displaying data via a chart over a table?
+### 11. What does app.use(express.json()) do?
 
-They're easier to look at, convey data more clearly, and don't have a bunch of elements that look exactly the same to spin your brain in circles of confusion.
+Answer
 
-### 7.How could Chart.js aid your previously created applications visually?
+### 12. What does the /:id mean in a route?
 
-Well, it would certainly look prettier than my HTML table. I would have loved to use it back when I was still scraping fantasy football data from the web.
+Answer
+
+### 13. What is the difference between PUT and PATCH?
+
+Answer
+
+### 14. How do you make a default value in a schema?
+
+Answer
+
+### 15. What does a 500 error status code mean?
+
+Answer
+
+### 16. What is the difference between a status 200 and a status 201?
+
+Answer
 
 </details>

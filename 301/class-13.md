@@ -1,26 +1,44 @@
 # Class 13
 
-<details markdown="block"><summary>Okkay</summary>
 
-To store data in modern browsers we can use the `localStorage.setItem(variableToStore, value)` method. `localStorage.getItem(variableToStore)` to return it's value, and localStorage.removeItem('variableToStore') to delete it.
+<details markdown="block"><summary>Things</summary>
 
-</details>
 
-## Reading Objectives
 
-<details markdown="block"><summary>Prompt Questions/answers</summary>
+### <li> Review the Submission Instructions for guidance on completing and submitting this assignment.</li>
 
-### Why would a developer use local storage for a web application?
+Answer
 
-To keep data from being cleared everytime a user refreshes their browser. This way users don't lose set preferences, performance, or satisfaction. It also helps reduce server load.
+### <li> Reading</li>
 
-### What information should not be stored in local storage?
+Answer
 
-Personally indentifying information, passwords, and other sensitive information.
+### <li> CRUD Basics</li>
 
-### Local storage can store what type of data? How would you convert it to that type before storing?
+Answer
 
-The 'toString' method,json.stringify, and json.parse() methods
+### <li> Which HTTP method would you use to update a record through an API?</li>
 
+Answer
+
+### <li> Which REST methods require an ID parameter?</li>
+
+Answer
+
+### <li> Videos</li>
+
+Answer
+
+### <li> Speed Coding: Building a CRUD API (Watch a Twitch streamer code an Express API in 20 minutes!)</li>
+
+Answer
+
+### <li> What’s the relationship between REST and CRUD?</li>
+
+Answer
+
+### <li> If you had to describe the process of creating a RESTful API in 5 steps, what would they be?</li>
+
+Answer
 
 </details>

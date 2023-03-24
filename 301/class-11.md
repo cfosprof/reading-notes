@@ -1,108 +1,69 @@
 # Class 2
 ## Terms and Concepts
 
-<details markdown="block"><summary>d</summary>
-These aren't about this reading, but I'm revisiting objects for the weeks work.
-
-Object Constructors
-```javascript
-function Product(name, filePath, totalExposure) {
-    this.name = name;
-    this.filePath = filePath;
-    this.totalExposure = totalExposure;
-);
-
-let product1 = new Product(name, filePath, 0)
 
 
-
-Defining methods
-
-objectName.methodName = functionName;
-
-const myObj = {
-  myMethod: function (params) {
-    // do something
-  },
-
-  // this works too!
-  myOtherMethod(params) {
-    // do something else
-  },
-};
-
-</details>
-
-<details markdown="block"><summary>Enumerating properties</summary>
-
-### Three ways
-
-#### for in loops
-
-Traverses all enumerable string properties in an object
-
-#### Object.keys(myObj)
-
-returns an arry of keys in the object, but not those in the prototype chain
-
-#### Object.getOwnPropertyNames(myObj)
-
-Returns all property names regardelss of whether they're enumerable or not.
+<details markdown="block"><summary>Things</summary>
 
 
+### 2. What does SQL stand for?
 
-</details>
+Answer
 
-## Reading Objectives
+### 3. 2.  What is a relational database?
 
-<details markdown="block"><summary>Prompt Questions/answers</summary>
+Answer
 
+### 4. 3.  What type of structure does a relational database work with?
 
-Reading
-Video and Audio Content
+Answer
 
-### 1. Explain how the ability to use video and audio on the web has evolved since the early 2000s.
+### 5. 4.  What is a ‘schema’?
 
-Things have grown far more secure and moved away from things like flash, better codecs have compressed file sizes, and streaming technology is everywhere.
+Answer
 
-### 2. Describe the use of the src and controls attributes in the `<video>` element.
+### 6. 5.  What is a NoSQL database?
 
-the src attribute contains the path to the video file you want to embed. Controls are for users to control the playback.
+Answer
 
-### 3. Why is it important to have fallback content inside the `<video>` element?
+### 7. 6.  How does it work?
 
-It will be displayed if th browser accessign the page doesn't support the video element.
+Answer
 
+### 8. 7.  What is inside of a MongoDB database?
 
-### A Complete Guide To Grid
+Answer
 
+### 9. 8.  Which is more flexible - SQL or MongoDB? and why.
 
-### 5. How does Grid layout differ from Flex?
+Answer
 
-Grid layout is two-dimensional whereas flex layout is one-dimensional.
+### 10. 9.  What is the disadvantage of a NoSQL database?
 
+Answer
 
-### 6. Grid container, grid item, and grid line are a few important terms to understand when using Grid. Please describe these terms in a few sentences.
+### 11. 10. What kind of data is a good fit for an SQL database?
 
+Answer
 
-Grid container is the element in which the display: grid is applied. it's the parent of the gridcontainer.
+### 12. 	Give a real world example.
 
-Grid line are the dividing lines that make up the structure of the grid they can be horizontal or vertical
+Answer
 
-Responsive Images
+### 13. 	What kind of data is a good fit a NoSQL database?
 
-### 7. Besides making a site visually appealing across different screen sizes, why should developers make images responsive?
+Answer
 
-Improved accessibility, performance, seo, and bandwidth usage are all good reasons.
+### 14. 	Give a real world example.
 
+Answer
 
-### 8. Define the following `<img>` attributes srcset and sizes. Write an example of how they are used.
+### 15. 	Which type of database is best for hierarchical data storage?
 
-Srcset defines the set of images we allow the browser to choose between, and what size each of those images is. sizes defines a set of media conditions--screen widths--and indicates which size would be best to choose from when particular media conditions are true.
+Answer
 
-### 9. How is srcset more helpful for responsive images than CSS or JavaScript?
+### 16. 	Which type of database is best for scalability?
 
-Because the browser begins preloading any images before it has any time to parse the css and JS. It makes it difficult to have responsive images ready to go.
-
+Answer
 </details>
 
