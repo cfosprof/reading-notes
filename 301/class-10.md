@@ -2,35 +2,58 @@
 
 ## Reading Objectives
 
-<details markdown="block"><summary>Prompt Questions/answers</summary>
 
 
-### 1. Name some key differences between a Syntax Error and a Logic Error.
-
-A syntax error is a type of error that occurs when there is some form of error in your syntax or structure, a logic error is one that is in the logic of your code. Syntax errors are usually easier to detect, logic are not.
-
-### 2. List a few types of errors that you have encountered in past lab assignments and explain how you were able to correct them.
-
-I've forgottent to use let a few times, and have been forced to read through the code only to find out it was something simple. I also have a bad habit of changing variable naems without changing them everywhere and I'll go through all variables really slowly to find the error.
+<details markdown="block"><summary>Things</summary>
 
 
-### 3. How will this topic continue to influence your long term goals?
 
-Errors will affect me forever, I can only hope to get better at reading the error codes and finding out where I make them without losing too much time.
+### 1. What is a ‘call’?
 
+Invoking a function
 
-The JavaScript Debugger.
+### 2. How many ‘calls’ can happen at once?
 
-### 4. How would you describe the JavaScript Debugger tool and how it works to someone just starting out in software development?
+It's dependent upon the program
 
-The javascript Debugger is a tool that allows you to take your code apart in functioning units to test individually so you can see which unit is the problem, rather than testing everysingle line throughout the code one by one.
+### 3. What does LIFO mean?
 
-### 5. Define what a breakpoint is.
+Last in first out
 
-Places in your code that you want to pause execution and identify the problems that prevent your code from executing properly.
+### 4. Draw an example of a call stack and the functions that would need to be invoked to generate that call stack.
 
-### 6. What is the call stack?
+func() {
+  func2();
+  func3();
+}
 
-The Call stack section shows you what code was executed to get to the current line.
+### 5. What causes a Stack Overflow?
 
-</details>;
+When the stack becomes too large.
+
+### 2. What is a ‘reference error’?
+
+When a variable is not defined, or is not in scope.
+
+### 3. What is a ‘syntax error’?
+
+Type of error that occurs when code violates the grammar rules of it's language
+
+### 4. What is a ‘range error’?
+
+WHen the program tries to reach an index out of range.
+
+### 5. What is a ‘type error’?
+
+WHen a value is not of the expected type.
+
+### 6. What is a breakpoint?
+
+A marker in the code that tells the debugger to stop.
+
+### 7. What does the word ‘debugger’ do in your code?
+
+It allows the programmer to step through the code.
+
+### 8. </details>
+
