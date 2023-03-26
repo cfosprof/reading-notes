@@ -2,14 +2,7 @@
 
 ## Readings: CRUD
 
-
 <details markdown="block"><summary>Things</summary>
-
-
-
-<details markdown="block"><summary>Things</summary>
-
-
 
 ### 1. In your own words, describe what each group of status code represents: 100’s = 200’s = 300’s = 400’s = 500’s =
 

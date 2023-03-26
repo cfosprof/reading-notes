@@ -1,69 +1,107 @@
-# Class 2
-## Terms and Concepts
-
-
-
 <details markdown="block"><summary>Things</summary>
 
+  
+  
 
-### 2. What does SQL stand for?
+### 1. What does SQL stand for?
 
-Answer
+  
 
-### 3. 2.  What is a relational database?
+Structured query language.
 
-Answer
+  
 
-### 4. 3.  What type of structure does a relational database work with?
+### 2. What is a relational database?
 
-Answer
+  
 
-### 5. 4.  What is a ‘schema’?
+A type of data base that organizes data into oen or more tables, and the tables are related to each other through keys and shared data.
 
-Answer
+  
 
-### 6. 5.  What is a NoSQL database?
+### 3. What type of structure does a relational database work with?
 
-Answer
+  
 
-### 7. 6.  How does it work?
+A tabular structure.
 
-Answer
+  
 
-### 8. 7.  What is inside of a MongoDB database?
+### 4. What is a ‘schema’?
 
-Answer
+  
 
-### 9. 8.  Which is more flexible - SQL or MongoDB? and why.
+A logical configuration of data. It is a blueprint of how the database is constructed.
 
-Answer
+  
 
-### 10. 9.  What is the disadvantage of a NoSQL database?
+### 5. What is a NoSQL database?
 
-Answer
+  
 
-### 11. 10. What kind of data is a good fit for an SQL database?
+A non-relational database, which uses a document-oriented, key-value, or graph database model for storage and retrieval of data.
 
-Answer
+  
 
-### 12. 	Give a real world example.
+### 6. How does it work?
 
-Answer
+  
 
-### 13. 	What kind of data is a good fit a NoSQL database?
+By storing data in a non-tabular format that allows for more flexibility and scalability.
 
-Answer
+  
 
-### 14. 	Give a real world example.
+### 7. What is inside of a MongoDB database?
 
-Answer
+  
 
-### 15. 	Which type of database is best for hierarchical data storage?
+Collections of json documents which can be nested and include arrays, embedded documents, and other data types.
 
-Answer
+  
 
-### 16. 	Which type of database is best for scalability?
+### 8. Which is more flexible - SQL or MongoDB? and why.
 
-Answer
+  
+
+MongoDB is more flexible because it is a non-relational database, which allows for more flexibility and scalability.
+
+  
+
+### 9. What is the disadvantage of a NoSQL database?
+
+  
+They often lack the ability to provide transactional consistency and integrity which can lead to data inconsistencies.
+  
+
+### 10. What kind of data is a good fit for an SQL database?
+
+  
+  Structured data with well defined relationships between entities--financial data, customer records, and inventory managment systems 
+  
+
+### 11. Give a real world example.
+
+Retail inventory managment systems that store info about products, prices, and stock levels.
+
+### 12. What kind of data is a good fit a NoSQL database?
+
+  
+NoSQL db is good for unstructured to semi structured data like social media feeds, log files, and sensor data. 
+  
+
+### 13. Give a real world example.
+
+  
+Data stored across multiple servers that has relationships that aren't as well defined.
+  
+
+### 14. Which type of database is best for hierarchical data storage?
+
+HDBMS
+
+### 15. Which type of database is best for scalability?
+
+NoSQL are considered best for scalability due to their ability to handle large amounts of unstructured data. 
+  
+
 </details>
-
