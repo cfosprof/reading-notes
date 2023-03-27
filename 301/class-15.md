@@ -2,74 +2,52 @@
 
 <details markdown="block"><summary>Things</summary>
 
-
-
-### <li> Readings: Authentication</li>
-
-Answer
-
-### <li> Below you will find some reading material, code samples, and some additional resources that support the topic for this class and the upcoming lecture.</li>
-
-Answer
-
-### <li> Review the Submission Instructions for guidance on completing and submitting this assignment.</li>
-
-Answer
-
 ### <li> Reading</li>
 
-Answer
+
 
 ### <li> What is OAuth</li>
 
-Answer
-
-### <li> What is OAuth?</li>
-
-Answer
+An open standard for authentication and authorization. It allows users to give third-party applications access to their data without having to give them their passwords.
 
 ### <li> Give an example of what using OAuth would look like.</li>
 
-Answer
+When a user logs into a website or application using their google account, they are using OAuth.
 
 ### <li> How does OAuth work? What are the steps that it takes to authenticate the user?</li>
 
-Answer
+By using accesss tokens. The user is redirected to the third-party application, where they are asked to log in. The third-party application then redirects the user back to the original application, along with an access token. The original application then uses the access token to access the user’s data.
 
 ### <li> What is OpenID?</li>
 
-Answer
-
-### <li> Authorization and Authentication flows</li>
-
-Answer
+Is the standard for authentication. It allows users to log into third-party applications using their google account.
 
 ### <li> What is the difference between authorization and authentication?</li>
 
-Answer
+Authentication is the process of verifying who a user is. Authorization is the process of verifying what they have access to.
 
 ### <li> What is Authorization Code Flow?</li>
 
-Answer
+Is an oauth 2.0 flow that exchanges an authorization code for a token.
 
 ### <li> What is Authorization Code Flow with Proof Key for Code Exchange (PKCE)?</li>
 
-Answer
+Authorization Code Flow with PKCE is an oauth 2.0 flow that adds an extra layer of security to prevent code interception attacks. 
 
 ### <li> What is Implicit Flow with Form Post?</li>
 
-Answer
+An oauth 2.0 flow that allows clients to obtain an access token directly from the authorization server. It is used in single-page applications.
 
 ### <li> What is Client Credentials Flow?</li>
 
-Answer
+AN oauth 2.0 flow that allows clients to obtain an access token using only their client credentials.
 
 ### <li> What is Device Authorization Flow?</li>
 
-Answer
+An oauth 2.0 flow that allows clients to obtain an access token by asking the user to authorize on a different device.
 
 ### <li> What is Resource Owner Password Flow?</li>
 
-Answer
+An oauth 2.0 flow that allows clients to obtain an access token by asking the user for their credentials.
 
 </details>

@@ -3,42 +3,28 @@
 
 <details markdown="block"><summary>Things</summary>
 
+## CRUD Basics
 
-
-### <li> Review the Submission Instructions for guidance on completing and submitting this assignment.</li>
-
-Answer
-
-### <li> Reading</li>
-
-Answer
-
-### <li> CRUD Basics</li>
-
-Answer
 
 ### <li> Which HTTP method would you use to update a record through an API?</li>
 
-Answer
+The PUT method is used to update a record through an API.
 
 ### <li> Which REST methods require an ID parameter?</li>
 
-Answer
-
-### <li> Videos</li>
-
-Answer
-
-### <li> Speed Coding: Building a CRUD API (Watch a Twitch streamer code an Express API in 20 minutes!)</li>
-
-Answer
+The GET, PUT, and DELETE methods require an ID parameter.
 
 ### <li> What’s the relationship between REST and CRUD?</li>
 
-Answer
+REST is a set of rules that developers follow when creating an API. CRUD is a set of rules that developers follow when creating a database.
 
 ### <li> If you had to describe the process of creating a RESTful API in 5 steps, what would they be?</li>
 
-Answer
+1. Create a database
+2. Create a schema
+3. Create a model
+4. Create a controller
+5. Create a route
+
 
 </details>
