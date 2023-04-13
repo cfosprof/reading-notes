@@ -2,6 +2,17 @@
 
 ## To Remember
 
+<details markdown="block"><summary>Create an artifact configuration for the JAR</summary>
+
+
+
+* From the main menu, select File | Project Structure (⌘ ;) and click Artifacts
+* Click the Add button, point to JAR and select From modules with dependencies
+* To the right of the Main Class field, click the Browse button and select HelloWorld (com.example.helloworld) in the dialog that opens
+* Apply the changes and close the dialog
+</details>
+
+
 <details markdown="block"><summary>IntelliJ Overview</summary>
 
 <details markdown="block"><summary>Your First Java App</summary>
