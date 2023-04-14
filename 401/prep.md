@@ -7,13 +7,12 @@ This is a md file help me clean it up many of these are headers for future work.
 
 </details>
 
-<details markdown="block"><summary>Command Line</summary>
+<details markdown="block"><summary><h2>Command Line</h2></summary>
 
 ### Miscellaneous
 
-<details markdown="block"><summary>Useful Commands</summary>
+<details markdown="block"><summary><h3>Useful Commands</h3></summary>
 
-<details markdown="block"><summary>Useful Commands</summary>
 Find the size of every directory inside your current directory:
 
 Use the command du -sh ./* to calculate and display the size of every directory in your current location. The -s option summarizes the total size, while the -h option displays the sizes in a human-readable format.
@@ -30,11 +29,10 @@ Monitor system activity in real-time:
 
 Use the command top to display a real-time, dynamic view of the processes running on your system. This command provides information about the system's performance, including CPU usage, memory usage, and more.
 
-</details>
 
 </details>
 
-<details markdown="block"><summary>Manipulating Files and Directories</summary>
+<details markdown="block"><summary><h3>Manipulating Files and Directories</h3></summary>
 
 #### Create directories with necessary parent directories:
 
@@ -60,7 +58,7 @@ Use the command `df -h` to see the available and used space on the hard drive in
 
 </details>
 
-## Java Fundamentals Overview - Learn the Basics
+<details markdown="block"><summary><h2>Java Fundamentals Overview - Learn the Basics</h2></summary>
 
 1. Hello, World!
 
@@ -76,6 +74,8 @@ Use the command `df -h` to see the available and used space on the hard drive in
 
 7. Objects
 
+</details>
+
 ## Create an artifact configuration for the JAR
 
 
@@ -86,9 +86,9 @@ To the right of the Main Class field, click the Browse button and select HelloWo
 Apply the changes and close the dialog.
 
 
-## Java Tutorial
+<details markdown="block"><summary><h2>Java Tutorial</h2></summary>
 
-<details markdown="block"><summary>Your First Java App</summary>
+<details markdown="block"><summary><h3>Your First Java App</h3></summary>
 Follow the tutorial up to the part about packaging. Topics covered:
 
 Creating a project
@@ -125,9 +125,9 @@ Step-inside-function-call
 Step-out-of-function-call
 </details>
 
-## Java Introduction
+</details>
 
-<details markdown="block"><summary>Java Intro</summary>
+<details markdown="block"><summary><h2>Java Introduction</h2></summary>
 
 `public` - can be accessed from anywhere
 `static` - can be accessed without creating an instance of the class
