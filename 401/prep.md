@@ -5,6 +5,7 @@ This is a md file help me clean it up many of these are headers for future work.
 - Java is an Object-Oriented Programming (OOP) language.
 
 
+</details>
 
 <details markdown="block"><summary>Command Line</summary>
 
@@ -30,6 +31,9 @@ Monitor system activity in real-time:
 Use the command top to display a real-time, dynamic view of the processes running on your system. This command provides information about the system's performance, including CPU usage, memory usage, and more.
 
 </details>
+
+</details>
+
 <details markdown="block"><summary>Manipulating Files and Directories</summary>
 
 #### Create directories with necessary parent directories:
