@@ -15,19 +15,19 @@ This is a md file help me clean it up many of these are headers for future work.
 
 #### Find the size of every directory inside your current directory:
 
-    - Use the command du -sh ./* to calculate and display the size of every directory in your current location. The -s option summarizes the total size, while the -h option displays the sizes in a human-readable format.
+    * Use the command du -sh ./* to calculate and display the size of every directory in your current location. The -s option summarizes the total size, while the -h option displays the sizes in a human-readable format.
 
 #### Display how much disk space is used and available:
 
-    - Use the command df -h to show disk space usage and availability in a human-readable format. The -h option makes the output easier to understand by displaying the sizes in a more readable format (e.g., KB, MB, GB).
+    * Use the command df -h to show disk space usage and availability in a human-readable format. The -h option makes the output easier to understand by displaying the sizes in a more readable format (e.g., KB, MB, GB).
 
 #### Obtain a listing of processes and their IDs:
 
-    - Use the command ps to display a list of processes and their respective IDs. Including the option aux with the command ps aux will show all processes with additional details, such as user, CPU usage, memory usage, and the command used to start the process.
+    * Use the command ps to display a list of processes and their respective IDs. Including the option aux with the command ps aux will show all processes with additional details, such as user, CPU usage, memory usage, and the command used to start the process.
 
 #### Monitor system activity in real-time:
 
-    - Use the command top to display a real-time, dynamic view of the processes running on your system. This command provides information about the system's performance, including CPU usage, memory usage, and more.
+    * Use the command top to display a real-time, dynamic view of the processes running on your system. This command provides information about the system's performance, including CPU usage, memory usage, and more.
 
 
 </details>
@@ -36,15 +36,15 @@ This is a md file help me clean it up many of these are headers for future work.
 
 #### Create directories with necessary parent directories:
 
-    - Use the command mkdir `-p` followed by the desired directory path to create the target directory and any necessary parent directories that don't exist. For example: mkdir `-p exist/nonexistentsteppingstone/targetfile`. The `-p` option ensures that all parent directories are created as needed.
+    * Use the command mkdir `-p` followed by the desired directory path to create the target directory and any necessary parent directories that don't exist. For example: mkdir `-p exist/nonexistentsteppingstone/targetfile`. The `-p` option ensures that all parent directories are created as needed.
 
 #### Verbose output while creating directories:
 
-    - Use the `-v` flag with mkdir to display messages about what the command is doing. For example: mkdir -v new_directory. The `-v` option provides verbose output, making it easier to understand what the command is doing.
+    * Use the `-v` flag with mkdir to display messages about what the command is doing. For example: mkdir -v new_directory. The `-v` option provides verbose output, making it easier to understand what the command is doing.
 
 #### Check available space on the hard drive:
 
-    - Use the command `df -h` to see the available and used space on the hard drive in a human-readable format. The `-h` option displays sizes in a more understandable format (e.g., KB, MB, GB).
+    * Use the command `df -h` to see the available and used space on the hard drive in a human-readable format. The `-h` option displays sizes in a more understandable format (e.g., KB, MB, GB).
 
 #### Wildcard characters in commands:
 
