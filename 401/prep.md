@@ -58,19 +58,281 @@ This is a md file help me clean it up many of these are headers for future work.
 
 <details markdown="block"><summary><h2>Java Fundamentals Overview - Learn the Basics</h2></summary>
 
-#### 1. Hello, World!
+## Java Fundamentals Overview - Learn the Basics
 
-#### 2. Variables and Types
+<details markdown="block"><summary>Hello, World!</summary>
 
-#### 3. Conditionals
+`public static void main(String[] args) {`
 
-#### 4. Arrays
+- `public` again means that anyone can access it.
+- `static` means that you can run this method without creating an instance of Main.
+- `void` means that this method doesn't return any value.
+- `main` is the name of the method.
 
-#### 5. Loops
+`System.out.println("This will be printed");`
 
-#### 6. Functions
+- `System` is a pre-defined class that Java provides us and it holds some useful methods and variables.
+- `out` is a static variable within System that represents the output of your program (stdout).
+- `println` is a method of out that can be used to print a line.
 
-#### 7. Objects
+</details>
+
+<details markdown="block"><summary>Variables and Types</summary>
+
+* Java has 8 primitive types:
+
+    * `byte` (number, 1 byte)
+    * `short` (number, 2 bytes)
+    * `int` (number, 4 bytes)
+    * `long` (number, 8 bytes)
+    * `float` (float number, 4 bytes)
+    * `double` (float number, 8 bytes)
+    * `char` (a character, 2 bytes)
+    * `boolean` (true or false, 1 byte)
+
+* It is strongly typed, which means variables need to be declared with their appropriate type before they can be used.
+
+Declaring a variable:
+
+```java
+int myNumber = 5;
+
+//double floating point number
+double d = 4.5;
+
+//float
+float f = 4.5f;
+
+//Or
+float f = (float) 4.5;
+
+```
+
+### Characters and strings
+
+* A character is it's own type, char, and it's represented by single quotes.
+
+```java
+char a = 'a';
+```
+
+* Strings are not primitive types, they are objects. They are immutable, which means that once they are created, they cannot be changed.
+
+* Strings are the only objects that can be created without the `new` keyword.
+
+* Strings are also the only objects that can be concatenated with the `+` operator, which is called operator overloading.
+
+<details markdown="block"><summary>Examples</summary>
+
+
+```java
+// strings are created both as literals and as objects
+
+String str1 = "Hello, World!";
+String str2 = new String("Hello, World!");
+
+// strings can be concatenated with the + operator
+
+String str3 = str1 + " " + str2;
+
+// strings can be compared with the equals method
+
+boolean equal = str1.equals(str2); // false
+
+// String Lenght
+String str = "Hello, World!";
+int len = str.length(); // 13
+
+// Accessing Characters by Index
+String str = "Hello, World!";
+char first = str.charAt(0); // 'H'
+
+// String Case altering
+String str = "Hello, World!";
+String upper = str.toUpperCase(); // "HELLO, WORLD!"
+String lower = str.toLowerCase(); // "hello, world!"
+
+// Substrings
+String str = "Hello, World!";
+String substr = str.substring(0, 5); // "Hello"
+String substr2 = str.substring(7); // "World!" (starts at index 7 until the end of the string)
+
+// String Trimming
+String str = "   Hello, World!   ";
+String trim = str.trim(); // "Hello, World!"
+
+// String Replacement
+String str = "Hello, World!";
+String replace = str.replace('H', 'J'); // "Jello, World!"
+String replace2 = str.replace("Hello", "Goodbye"); // "Goodbye, World!"
+
+// String Splitting
+String str = "Hello, World!";
+String[] array = str.split(", "); // {"Hello", "World!"}
+
+//Joining strings:
+String[] words = {"Hello", "World"};
+String joinedStr = String.join(", ", words); // "Hello, World"
+
+
+//Converting string to character array:
+String str = "Hello, World!";
+char[] chars = str.toCharArray(); // ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!']
+
+
+//Converting other data types to strings:
+int number = 42;
+String str = Integer.toString(number); // "42"
+
+
+//Converting strings to other data types:
+String str = "42";
+int number = Integer.parseInt(str);
+
+//String formatting:
+String formattedStr = String.format("Hello, %s!", "World"); // "Hello, World!"
+
+```
+
+<details markdown="block"><summary>String methods to dive into</summary>
+
+`charAt()`, char
+  Returns the character at the specified index (position)
+```java
+
+```
+
+`codePointAt()`, int
+  Returns the Unicode of the character at the specified index
+```java
+
+```
+
+`codePointBefore()`, int
+  Returns the Unicode of the character before the specified index
+```java
+
+```
+
+`codePointCount()`, int
+  Returns the number of Unicode values found in a string.
+```java
+
+```
+
+`compareTo()`, int
+  Compares two strings lexicographically
+```java
+
+```
+
+`compareToIgnoreCase()`, int
+  Compares two strings lexicographically, ignoring case differences
+```java
+
+```
+
+`concat()`, String
+  Appends a string to the end of another string
+```java
+
+```
+
+`contains()`, boolean
+  Checks whether a string contains a sequence of characters
+```java
+
+```
+
+`contentEquals()`, boolean
+  Checks whether a string contains the exact same sequence of characters 
+    of the specified CharSequence or StringBuffer
+```java
+
+```
+
+`copyValueOf()`, String
+  Returns a String that represents the characters of the character array
+```java
+
+```
+
+`endsWith()`, boolean
+  Checks whether a string ends with the specified character(s)
+```java
+
+```
+
+`equals()`, boolean
+  Compares two strings. Returns true if the strings are equal, and false 
+    if not
+```java
+
+```
+
+`equalsIgnoreCase()`, boolean
+  Compares two strings, ignoring case considerations
+```java
+
+```
+
+`hashCode()`, int
+  Returns the hash code of a string
+```java
+
+```
+
+`indexOf()`, int
+  Returns the position of the first found occurrence of specified characters in a string
+```java
+
+```
+
+`isEmpty()`, boolean
+  Checks whether a string is empty or not
+```java
+
+```
+
+`lastIndexOf()`, int
+  Returns the position of the last found occurrence of specified characters in a string
+```java
+
+```
+
+`length()`, int
+  Returns the length of a specified string
+```java
+
+```
+
+`replace()`, String
+  Searches a string for a specified value, and returns a new string where the specified values are replaced
+```java
+
+```
+
+`startsWith()`, boolean
+  Checks whether a string starts with specified characters
+```java
+
+```
+
+`toLowerCase()`, String
+  Converts a string to lower case letters
+```java
+
+```
+
+`toUpperCase()`, String
+  Converts a string to upper case letters
+```java
+
+```
+
+</details>
+
+</details>
 
 </details>
 
