@@ -9,8 +9,6 @@ This is a md file help me clean it up many of these are headers for future work.
 
 <details markdown="block"><summary><h2>Command Line</h2></summary>
 
-### Miscellaneous
-
 <details markdown="block"><summary><h3>Useful Commands</h3></summary>
 
 #### Find the size of every directory inside your current directory:
