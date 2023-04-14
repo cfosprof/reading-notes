@@ -1,23 +1,91 @@
-# Prep
+This is a md file help me clean it up many of these are headers for future work.
 
-## To Remember
+<details markdown="block"><summary>Key Takeaways
+</summary>
+- Java is an Object-Oriented Programming (OOP) language.
 
-<details markdown="block"><summary>Create an artifact configuration for the JAR</summary>
 
 
+<details markdown="block"><summary>Command Line</summary>
 
-* From the main menu, select File | Project Structure (⌘ ;) and click Artifacts
-* Click the Add button, point to JAR and select From modules with dependencies
-* To the right of the Main Class field, click the Browse button and select HelloWorld (com.example.helloworld) in the dialog that opens
-* Apply the changes and close the dialog
+### Miscellaneous
+
+<details markdown="block"><summary>Useful Commands</summary>
+
+<details markdown="block"><summary>Useful Commands</summary>
+Find the size of every directory inside your current directory:
+
+Use the command du -sh ./* to calculate and display the size of every directory in your current location. The -s option summarizes the total size, while the -h option displays the sizes in a human-readable format.
+
+Display how much disk space is used and available:
+
+Use the command df -h to show disk space usage and availability in a human-readable format. The -h option makes the output easier to understand by displaying the sizes in a more readable format (e.g., KB, MB, GB).
+
+Obtain a listing of processes and their IDs:
+
+Use the command ps to display a list of processes and their respective IDs. Including the option aux with the command ps aux will show all processes with additional details, such as user, CPU usage, memory usage, and the command used to start the process.
+
+Monitor system activity in real-time:
+
+Use the command top to display a real-time, dynamic view of the processes running on your system. This command provides information about the system's performance, including CPU usage, memory usage, and more.
+
+</details>
+<details markdown="block"><summary>Manipulating Files and Directories</summary>
+
+#### Create directories with necessary parent directories:
+
+Use the command mkdir `-p` followed by the desired directory path to create the target directory and any necessary parent directories that don't exist. For example: mkdir `-p exist/nonexistentsteppingstone/targetfile`. The `-p` option ensures that all parent directories are created as needed.
+
+#### Verbose output while creating directories:
+
+Use the `-v` flag with mkdir to display messages about what the command is doing. For example: mkdir -v new_directory. The `-v` option provides verbose output, making it easier to understand what the command is doing.
+
+#### Check available space on the hard drive:
+
+Use the command `df -h` to see the available and used space on the hard drive in a human-readable format. The `-h` option displays sizes in a more understandable format (e.g., KB, MB, GB).
+
+#### Wildcard characters in commands:
+
+```bash
+* represents zero or more characters, often used for searching or matching multiple files or directories.
+? represents a single character, used for more precise searching or matching files or directories.
+[] represents a range of characters. For example, [a-z] represents all lowercase letters, and [0-9] represents all digits. Useful for matching patterns in file or directory names.
+```
+
 </details>
 
+</details>
 
-<details markdown="block"><summary>IntelliJ Overview</summary>
+## Java Fundamentals Overview - Learn the Basics
+
+1. Hello, World!
+
+2. Variables and Types
+
+3. Conditionals
+
+4. Arrays
+
+5. Loops
+
+6. Functions
+
+7. Objects
+
+## Create an artifact configuration for the JAR
+
+
+
+From the main menu, select File | Project Structure (⌘ ;) and click Artifacts.
+Click the Add button, point to JAR, and select From modules with dependencies.
+To the right of the Main Class field, click the Browse button and select HelloWorld (com.example.helloworld) in the dialog that opens.
+Apply the changes and close the dialog.
+
+
+## Java Tutorial
 
 <details markdown="block"><summary>Your First Java App</summary>
-
-Until the part about packaging.
+Follow the tutorial up to the part about packaging. Topics covered:
 
 Creating a project
 Exploring the project structure
@@ -32,15 +100,13 @@ Building and running the application
 
 <details markdown="block"><summary>Debugging Java</summary>
 
-Follow through all the directions in every section of this page.
+Follow through all the directions in every section of this page. Topics covered:
 
-Before you start…
-Putting breakpoints
+Before you start…Putting breakpoints
 Starting a debugger session
 Stepping through the application
 Stepping through the statements directly
 Stepping through the method calls
-
 </details>
 
 <details markdown="block"><summary>Submitting Your Work</summary>
@@ -53,29 +119,11 @@ Breakpoint
 Step-to-next-line
 Step-inside-function-call
 Step-out-of-function-call
-
 </details>
 
+## Java Introduction
 
-</details>
-
-<details markdown="block"><summary>Keys</summary>
-
-Java is OOP
-<details markdown="block"><summary>Example</summary>
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello World");
-    }
-}
-
-```
-
-</details>
-
-## Introductory
+<details markdown="block"><summary>Java Intro</summary>
 
 `public` - can be accessed from anywhere
 `static` - can be accessed without creating an instance of the class
@@ -85,67 +133,14 @@ public class Main {
 `System.out` - a static variable within system that represents the standard output of the program
 `println` - a method that can be used to print a line
 
-## Variables and Types
+### Additional System Methods and Variables
+`System.in`: This is an instance of InputStream and is used to read input from the console. Generally used with Scanner or BufferedReader to read user input.
 
-## Conditionals
+`System.err`: This is an instance of PrintStream and is used to display error messages on the console, similar to System.out. The primary difference is that it writes to the standard error stream, allowing you to separate regular output from error messages.
 
-## Arrays
+`System.currentTimeMillis()`: This method returns the current time in milliseconds since the epoch (January 1, 1970, 00:00:00 GMT). Useful for measuring the time taken by a piece of code or for generating timestamps.
 
-## Functions
-
-## Objects
-
-## Compiling and Running with Arguments
-
-## Inheritance
-
-## Try and Catch
-
-## Abstract Classes
-
-## Interfaces
-
+`System.nanoTime()`: Similar to System.currentTimeMillis(), but provides greater precision with nanosecond resolution. It is primarily used for measuring time intervals, not for obtaining wall-clock time.
 
 </details>
 
-<details markdown="block"><summary>Java Intro</summary>
-
-* Java = OOP
-
-* Java objects are part of so called classes
-
-* Every line in java that can actually be run needs to be in a  class. This is because java is an OOP language.
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello World");
-    }
-}
-
-
-public class Main {//class name and public means any other class can access it
-    public static void main(String[] args) {// this is the entry point of the program.
-        System.out.println("Hello World");
-    }
-}
-```
-
-* public means that any other class can access it.
-* static means you can run the method without creating an instance of the Main class.
-* void means that the method does not return anything.
-* main is the name of the method.
-* The arguments we get inside the method are the arguments taht we will get when we run the program with parameters.
-
-* `System` is a pre-defined class in java that holds useful methods and variables.
-
-* System`.out` is a statc variable within system that represents the standard output of the program.
-
-* `println` is a method that can be used to print a line.
-
-* We must declare a public class with the same name as the file name.
-
-
-
-
-</details>
