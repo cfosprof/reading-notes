@@ -13,11 +13,11 @@ This is a md file help me clean it up many of these are headers for future work.
 
 <details markdown="block"><summary><h3>Useful Commands</h3></summary>
 
-Find the size of every directory inside your current directory:
+#### Find the size of every directory inside your current directory:
 
 Use the command du -sh ./* to calculate and display the size of every directory in your current location. The -s option summarizes the total size, while the -h option displays the sizes in a human-readable format.
 
-Display how much disk space is used and available:
+#### #### Display how much disk space is used and available:
 
 Use the command df -h to show disk space usage and availability in a human-readable format. The -h option makes the output easier to understand by displaying the sizes in a more readable format (e.g., KB, MB, GB).
 
@@ -25,7 +25,7 @@ Obtain a listing of processes and their IDs:
 
 Use the command ps to display a list of processes and their respective IDs. Including the option aux with the command ps aux will show all processes with additional details, such as user, CPU usage, memory usage, and the command used to start the process.
 
-Monitor system activity in real-time:
+#### Monitor system activity in real-time:
 
 Use the command top to display a real-time, dynamic view of the processes running on your system. This command provides information about the system's performance, including CPU usage, memory usage, and more.
 
@@ -60,19 +60,19 @@ Use the command `df -h` to see the available and used space on the hard drive in
 
 <details markdown="block"><summary><h2>Java Fundamentals Overview - Learn the Basics</h2></summary>
 
-1. Hello, World!
+#### 1. Hello, World!
 
-2. Variables and Types
+#### 2. Variables and Types
 
-3. Conditionals
+#### 3. Conditionals
 
-4. Arrays
+#### 4. Arrays
 
-5. Loops
+#### 5. Loops
 
-6. Functions
+#### 6. Functions
 
-7. Objects
+#### 7. Objects
 
 </details>
 
