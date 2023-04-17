@@ -78,15 +78,8 @@ I think I inserted these in reverse order.
 https://canvas.instructure.com/courses/6504881/assignments/36513391
 
 ## Your First Java App
-### Creating a Project
 ![](../assets/Pasted%20image%2020230416130320.png)
-### Exploring the Project Structure
-### Creating a Package and a Class
-### Writing Code for the HelloWorld Class
-### Using a Live Template for the main() Method
-### Using Code Auto-completion
-### Using a Live Template for println()
-### Building and Running the Application
+
 ![](../assets/Pasted%20image%2020230416133149.png)
 
 
@@ -103,10 +96,6 @@ Follow through all the directions in every section of this page. Topics covered:
 ![](../assets/Pasted%20image%2020230416142045.png)
 
 ## Submitting Your Work
-
-Capture screenshots of your code and its output. Consolidate them into a folder and submit it into the Canvas assignment designated for the Java Tutorial prework.
-
-Capture screenshots of you debugging your code. Write something offering your own definitions and explanations for each of these debugging concepts:
 
 Breakpoint
 Defines what point you want to stop the program and begin walking through what happens during each of the following steps.
