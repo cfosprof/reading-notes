@@ -73,43 +73,9 @@ I think I inserted these in reverse order.
 
 ## Assignment Overview
 
-### Your First Java App
+## Your First Java App
 [IntelliJ](https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html)
 https://canvas.instructure.com/courses/6504881/assignments/36513391
-
-Only complete these sections:
-
--   Creating a project
--   Exploring the project structure
--   Creating a package and a class
--   Writing code for the HelloWorld class
-    -   Using a live template for the main() method
-    -   Using code auto-completion
-    -   Using a live template for println()
--   Building and running the application
-
-**DO NOT** continue through the sections dedicated to packaging and running a packaged Java app, as we’ll be using other tools for that in the course.
-
-### Debugging Java
-
-[Debugging Your First Java Application](https://www.jetbrains.com/help/idea/debugging-your-first-java-application.html)
-Follow through all the directions in every section of this page.
-
--   Before you start…
--   Putting breakpoints
--   Starting a debugger session
--   Stepping through the application
-    -   Stepping through the statements directly
-    -   Stepping through the method calls
-
-Capture screenshots of your code and its output. Consolidate them into a folder and submit it into the Canvas assignment designated for the Java Tutorial prework.
-
-Capture screenshots of you debugging your code. Write something offering your own definitions and explanations for each of these debugging concepts:
-
--   Breakpoint
--   Step-to-next-line
--   Step-inside-function-call
--   Step-out-of-function-call
 
 ## Your First Java App
 ### Creating a Project
@@ -122,6 +88,7 @@ Capture screenshots of you debugging your code. Write something offering your ow
 ### Using a Live Template for println()
 ### Building and Running the Application
 ![](../assets/Pasted%20image%2020230416133149.png)
+
 
 ## Debugging Java
 
@@ -149,6 +116,9 @@ Step-inside-function-call
 Executes the current line and steps into the called method if there is one.
 Step-out-of-function-ca
 Executes remaining lines and exits the methodstopping at the next line after the method call.
+
+
+
 </details>
 
 
