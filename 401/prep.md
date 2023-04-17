@@ -1,73 +1,9 @@
-- [[#Key Takeaways|Key Takeaways]]
-- [[#Command Line|Command Line]]
-	- [[#Command Line#Useful Commands|Useful Commands]]
-		- [[#Useful Commands#Find the Size of Every Directory inside Your Current Directory|Find the Size of Every Directory inside Your Current Directory]]
-		- [[#Useful Commands#Display how much Disk Space is Used and Available|Display how much Disk Space is Used and Available]]
-		- [[#Useful Commands#Obtain a Listing of Processes and Their IDs|Obtain a Listing of Processes and Their IDs]]
-		- [[#Useful Commands#Monitor System Activity in Real-time|Monitor System Activity in Real-time]]
-	- [[#Command Line#Manipulating Files and Directories|Manipulating Files and Directories]]
-		- [[#Manipulating Files and Directories#Create Directories with Necessary Parent Directories|Create Directories with Necessary Parent Directories]]
-		- [[#Manipulating Files and Directories#Verbose Output while Creating Directories|Verbose Output while Creating Directories]]
-		- [[#Manipulating Files and Directories#Check Available Space on the Hard Drive|Check Available Space on the Hard Drive]]
-		- [[#Manipulating Files and Directories#Wildcard Characters in Commands|Wildcard Characters in Commands]]
-- [[#Java Fundamentals Overview - Learn the Basics|Java Fundamentals Overview - Learn the Basics]]
-	- [[#Java Fundamentals Overview - Learn the Basics#Assignment|Assignment]]
-		- [[#Assignment#Gradle|Gradle]]
-		- [[#Assignment#(Optional) IntelliJ IDEA Integration|(Optional) IntelliJ IDEA Integration]]
-		- [[#Assignment#Submitting Your Work|Submitting Your Work]]
-	- [[#Java Fundamentals Overview - Learn the Basics#Java|Java]]
-		- [[#Java#Hello, World|Hello, World]]
-			- [[#Hello, World#`public static void main(String[] args) {`|`public static void main(String[] args) {`]]
-			- [[#Hello, World#`System.out.println("This will be printed");`|`System.out.println("This will be printed");`]]
-		- [[#Java#Variables and Types|Variables and Types]]
-			- [[#Variables and Types#Declaring a variable:|Declaring a variable:]]
-		- [[#Java#Characters and Strings|Characters and Strings]]
-			- [[#Characters and Strings#Examples|Examples]]
-		- [[#Java#Conditionals|Conditionals]]
-			- [[#Conditionals#JavA conditional operators|JavA conditional operators]]
-			- [[#Conditionals#`==` and equals|`==` and equals]]
-		- [[#Java#Arrays|Arrays]]
-		- [[#Java#Loops|Loops]]
-			- [[#Loops#For|For]]
-			- [[#Loops#While|While]]
-			- [[#Loops#For each|For each]]
-			- [[#Loops#Break and continue|Break and continue]]
-		- [[#Java#Functions|Functions]]
-			- [[#Functions#Arguments|Arguments]]
-			- [[#Functions#Non static methods|Non static methods]]
-		- [[#Java#Objects|Objects]]
-			- [[#Objects#methods|methods]]
-			- [[#Objects#public and private variable methods|public and private variable methods]]
-		- [[#Java#Gradle|Gradle]]
-- [[#IntelliJ Overview|IntelliJ Overview]]
-	- [[#IntelliJ Overview#Assignment overview|Assignment overview]]
-		- [[#Assignment overview#Your first Java App|Your first Java App]]
-		- [[#Assignment overview#Debugging Java|Debugging Java]]
-	- [[#IntelliJ Overview#Your First Java App|Your First Java App]]
-			- [[#Debugging Java#Creating a project|Creating a project]]
-			- [[#Debugging Java#Exploring the project structure|Exploring the project structure]]
-			- [[#Debugging Java#Creating a package and a class|Creating a package and a class]]
-			- [[#Debugging Java#Writing code for the HelloWorld class|Writing code for the HelloWorld class]]
-			- [[#Debugging Java#Using a live template for the main() method|Using a live template for the main() method]]
-			- [[#Debugging Java#Using code auto-completion|Using code auto-completion]]
-			- [[#Debugging Java#Using a live template for println()|Using a live template for println()]]
-			- [[#Debugging Java#Building and running the application|Building and running the application]]
-	- [[#IntelliJ Overview#Debugging Java|Debugging Java]]
-			- [[#Debugging Java#Before you start…Putting breakpoints|Before you start…Putting breakpoints]]
-			- [[#Debugging Java#Starting a debugger session|Starting a debugger session]]
-			- [[#Debugging Java#Stepping through the application|Stepping through the application]]
-	- [[#IntelliJ Overview#Submitting Your Work|Submitting Your Work]]
-	- [[#IntelliJ Overview#Java Introduction|Java Introduction]]
-	- [[#IntelliJ Overview#Additional System Methods and Variables|Additional System Methods and Variables]]
-	- [[#IntelliJ Overview#String Methods to Dive into|String Methods to Dive into]]
-
-
 # Key Takeaways
 
 - Java is an Object-Oriented Programming (OOP) language.
-- 
 
 # Command Line
+<details markdown="block"><summary>Content</summary>
 
 ## Useful Commands
 
@@ -108,8 +44,13 @@
 `?` represents a single character, used for more precise searching or matching files or directories.
 `[]` represents a range of characters. For example, [a-z] represents all lowercase letters, and [0-9] represents all digits. Useful for matching patterns in file or directory names.
 ```
+</details>
+
 
 # Java Fundamentals Overview - Learn the Basics
+
+<details markdown="block"><summary>Info</summary>
+
 ## Assignment
 -   [Learn Java Online](http://www.learnjavaonline.org/)
 
@@ -495,7 +436,13 @@ Constructors are generally public, variables private, and methods are split.
 ### Gradle
 
 Go through this tutorial, which will ensure that you have Gradle installed on your computer and that you’re able to create a new application, build it, and run it.
+
+</details>
+
 # IntelliJ Overview
+
+<details markdown="block"><summary>Content</summary>
+
 ## Assignment overview
 ### Your first Java App
 [IntelliJ](https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html)
@@ -572,9 +519,12 @@ Step-inside-function-call
 Executes the current line and steps into the called method if there is one.
 Step-out-of-function-ca
 Executes remaining lines and exits the methodstopping at the next line after the method call.
+</details>
 
-## Java Introduction
 
+# Java Introduction
+
+<details markdown="block"><summary>Content</summary>
 `public` - can be accessed from anywhere
 `static` - can be accessed without creating an instance of the class
 `void` - does not return anything
@@ -591,9 +541,9 @@ Executes remaining lines and exits the methodstopping at the next line after the
 `System.currentTimeMillis()`: This method returns the current time in milliseconds since the epoch (January 1, 1970, 00:00:00 GMT). Useful for measuring the time taken by a piece of code or for generating timestamps.
 
 `System.nanoTime()`: Similar to System.currentTimeMillis(), but provides greater precision with nanosecond resolution. It is primarily used for measuring time intervals, not for obtaining wall-clock time
-
+</details>
 ## String Methods to Dive into
-
+<details markdown="block"><summary>Content</summary>
 `charAt()`, char
   Returns the character at the specified index (position)
 ```java
@@ -727,3 +677,4 @@ Executes remaining lines and exits the methodstopping at the next line after the
 ```java
 
 ``
+</details>
