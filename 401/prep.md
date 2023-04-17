@@ -2,7 +2,8 @@
 
 - Java is an Object-Oriented Programming (OOP) language.
 
-# Command Line
+# Prep: Practice in the Terminal
+
 <details markdown="block"><summary>Content</summary>
 
 ## Useful Commands
@@ -44,57 +45,152 @@
 `?` represents a single character, used for more precise searching or matching files or directories.
 `[]` represents a range of characters. For example, [a-z] represents all lowercase letters, and [0-9] represents all digits. Useful for matching patterns in file or directory names.
 ```
+
 </details>
 
+# Android builder
+
+<details markdown="block"><summary>Photo</summary>
+
+
+![](../Pasted%20image%2020230416195726.png)
+
+
+</details>
 
 # Java Fundamentals Overview - Learn the Basics
+I think I inserted these in reverse order.
 
 <details markdown="block"><summary>Info</summary>
 
-## Assignment
--   [Learn Java Online](http://www.learnjavaonline.org/)
 
-Work through the following sections:
+</details>
 
--   Learn the Basics
--   Hello, World!
--   Variables and Types
--   Conditionals
--   Arrays
--   Loops
--   Functions
--   Objects
-### Gradle
 
--   [Building Java Applications with Gradle](https://guides.gradle.org/building-java-applications/)
+# IntelliJ Overview
 
-Go through this tutorial, which will ensure that you have Gradle installed on your computer and that you’re able to create a new application, build it, and run it.
+<details markdown="block"><summary>Content</summary>
 
-### (Optional) IntelliJ IDEA Integration
+## Assignment Overview
 
-As an alternative to using the online editor, you may try to create a project inside IntelliJ IDEA with a file for each of these categories. Make sure each file has a `public static void main(String args){}` method so it can be executed.
+### Your First Java App
+[IntelliJ](https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html)
+https://canvas.instructure.com/courses/6504881/assignments/36513391
 
-### Submitting Your Work
+Only complete these sections:
 
-Take screenshots of each of your solutions from Learn Java Online, and a screenshot of your successful `./gradlew run`, and submit them to Canvas.
+-   Creating a project
+-   Exploring the project structure
+-   Creating a package and a class
+-   Writing code for the HelloWorld class
+    -   Using a live template for the main() method
+    -   Using code auto-completion
+    -   Using a live template for println()
+-   Building and running the application
 
-## Java
-### Hello, World
+**DO NOT** continue through the sections dedicated to packaging and running a packaged Java app, as we’ll be using other tools for that in the course.
 
-#### `public static void main(String[] args) {`
+### Debugging Java
+
+[Debugging Your First Java Application](https://www.jetbrains.com/help/idea/debugging-your-first-java-application.html)
+Follow through all the directions in every section of this page.
+
+-   Before you start…
+-   Putting breakpoints
+-   Starting a debugger session
+-   Stepping through the application
+    -   Stepping through the statements directly
+    -   Stepping through the method calls
+
+Capture screenshots of your code and its output. Consolidate them into a folder and submit it into the Canvas assignment designated for the Java Tutorial prework.
+
+Capture screenshots of you debugging your code. Write something offering your own definitions and explanations for each of these debugging concepts:
+
+-   Breakpoint
+-   Step-to-next-line
+-   Step-inside-function-call
+-   Step-out-of-function-call
+
+## Your First Java App
+### Creating a Project
+![](../assets/Pasted%20image%2020230416130320.png)
+### Exploring the Project Structure
+### Creating a Package and a Class
+### Writing Code for the HelloWorld Class
+### Using a Live Template for the main() Method
+### Using Code Auto-completion
+### Using a Live Template for println()
+### Building and Running the Application
+![](../assets/Pasted%20image%2020230416133149.png)
+
+## Debugging Java
+
+Follow through all the directions in every section of this page. Topics covered:
+
+### Before You start…Putting Breakpoints
+![](../assets/Pasted%20image%2020230416141957.png)
+### Starting a Debugger Session
+![](../assets/Pasted%20image%2020230416142000.png)
+### Stepping through the Application
+![](../assets/Pasted%20image%2020230416143319.png)
+![](../assets/Pasted%20image%2020230416142045.png)
+
+## Submitting Your Work
+
+Capture screenshots of your code and its output. Consolidate them into a folder and submit it into the Canvas assignment designated for the Java Tutorial prework.
+
+Capture screenshots of you debugging your code. Write something offering your own definitions and explanations for each of these debugging concepts:
+
+Breakpoint
+Defines what point you want to stop the program and begin walking through what happens during each of the following steps.
+Step-to-next-line
+The process of executing the current line and taking the exection point to the line following it in the current method
+Step-inside-function-call
+Executes the current line and steps into the called method if there is one.
+Step-out-of-function-ca
+Executes remaining lines and exits the methodstopping at the next line after the method call.
+</details>
+
+
+# Java Introduction
+
+<details markdown="block"><summary>Content</summary>
+
+`public` - can be accessed from anywhere
+`static` - can be accessed without creating an instance of the class
+`void` - does not return anything
+`main` - the entry point of the program
+`System` - a pre-defined class in java that holds useful methods and variables
+`System.out` - a static variable within system that represents the standard output of the program
+`println` - a method that can be used to print a line
+
+## Additional System Methods and Variables
+`System.in`: This is an instance of InputStream and is used to read input from the console. Generally used with Scanner or BufferedReader to read user input.
+
+`System.err`: This is an instance of PrintStream and is used to display error messages on the console, similar to System.out. The primary difference is that it writes to the standard error stream, allowing you to separate regular output from error messages.
+
+`System.currentTimeMillis()`: This method returns the current time in milliseconds since the epoch (January 1, 1970, 00:00:00 GMT). Useful for measuring the time taken by a piece of code or for generating timestamps.
+
+`System.nanoTime()`: Similar to System.currentTimeMillis(), but provides greater precision with nanosecond resolution. It is primarily used for measuring time intervals, not for obtaining wall-clock time
+</details>
+
+# Java
+## Hello, World
+
+#### `public Static Void main(String[] args) {`
 
 - `public` again means that anyone can access it.
 - `static` means that you can run this method without creating an instance of Main.
 - `void` means that this method doesn't return any value.
 - `main` is the name of the method.
 
-#### `System.out.println("This will be printed");`
+#### `System.out.println("This Will Be printed");`
 
 - `System` is a pre-defined class that Java provides us and it holds some useful methods and variables.
 - `out` is a static variable within System that represents the output of your program (stdout).
 - `println` is a method of out that can be used to print a line
 
-### Variables and Types
+## Variables and Types
 
 * Java has 8 primitive types:
 
@@ -109,7 +205,7 @@ Take screenshots of each of your solutions from Learn Java Online, and a screens
 
 * It is strongly typed, which means variables need to be declared with their appropriate type before they can be used.
 
-#### Declaring a variable:
+#### Declaring a Variable
 
 ```java
 int myNumber = 5;
@@ -125,7 +221,7 @@ float f = (float) 4.5;
 
 ```
 
-### Characters and Strings
+## Characters and Strings
 
 * A character is it's own type, char, and it's represented by single quotes.
 
@@ -138,7 +234,8 @@ char a = 'a';
 * Strings are the only objects that can be created without the `new` keyword.
 
 * Strings are also the only objects that can be concatenated with the `+` operator, which is called operator overloading.
-#### Examples
+
+### Examples
 
 ```java
 // strings are created both as literals and as objects
@@ -209,9 +306,10 @@ String formattedStr = String.format("Hello, %s!", "World"); // "Hello, World!"
 
 ```
 
-### Conditionals
-#### JavA conditional operators
-```java
+## Conditionals
+
+#### JavA Conditional Operators
+
 ```java
 int a = 4;
 int b = 5;
@@ -226,9 +324,12 @@ result = a > b || a < b; // Logical or - true
 result = 3 < a && a < 6; // Logical and - true
 result = !result; // Logical not - false
 ```
-#### `==` and equals
+
+#### `==` And Equals
 The operator `==` works a bit different on objects than on primitives. In objects `==` will check whether the object is the same, `a.equals` will check if they are logically the same. In other words, if you want to check if two objects are the same object use `==`, if you want to check if they're logically the same use `.equals.`
-### Arrays
+
+## Arrays
+
 To declare an array that will hold integers use:
 	`int[] arr;`
 To create a new array with the size of 10 use
@@ -246,24 +347,33 @@ for (int i =0; i < arr.length; i++) {
 	System.out.println(arr[i]);
 }
 ```
-### Loops
+
+## Loops
+
 There are two loop types in Java, for and while
+
 #### For
+
 `for (int i = 0; i < 3; i++) {}`
 Like js, the first section initializes our entering position, the second is the bouncer screening for true before allowing us to run and enter the loop, if false we don't run that iteration. The third is the final statement that runs everytime the loop runs. 
-##### I'm not sure why we'd do this, but apparently we can omit the first and third section and make our code look like it forgot its pants when it left the house.
+
+##### I'm not Sure why We'd Do This, but Apparently We Can Omit the First and Third Section and Make Our Code Look like it Forgot Its Pants when it Left the House
 `for (;i < 5;) {}
 
 #### While
-	`while (condition) {}`
+
+`while (condition) {}`
 The condition runs the first time when entering and every time the loop is done until it returns false.
 To ensure the loop always runs at least once use `do-while`;
+
 ```java
 do {
 
 } while(condition);
 ```
-#### For each
+
+#### For Each
+
 Another version of for, is foreach. In js foreach accepts index as an optional argument, but java does not. 
 ```java
 int [] arr = {2, 0, 1, 3};
@@ -279,7 +389,8 @@ for (int i = 0; i < arr.length; i++) {
     System.out.println(el);
 }
 ```
-#### Break and continue
+#### Break and Continue
+
 Allow us to control the loop from within it. `break` will stop immediatley, turn around, and exit the for loop work floor.  
 ```java
 
@@ -310,7 +421,8 @@ for (i = 0; i < 5; i++) {
 System.out.println(i);
 ```
 
-### Functions
+## Functions
+
 All function definitions in java must be within classes.
 ```java
 public class Main {
@@ -335,7 +447,6 @@ bar(a, b);
 With an object the rules are the same, but it acts a little differently.
 ```java
 public void bar2(student s1, Student s2){
-	...
 }
 
 Student joe = new Student ("joe");
@@ -344,7 +455,7 @@ bar2(joe, jack);
 
 
 ```
-#### Non static methods
+#### Non Static Methods
 Non-static methods are used more frequently than static methods in java. These methods can only be run on objects and not on the whole class.
 
 Non static methods can access and alter the field of the object
@@ -368,7 +479,7 @@ String name = s.getName();
 Student.setName("Bob"); //will not work
 Student.getName();
 ```
-### Objects
+## Objects
 Everything in Java is within classes and objects. Java objects hold a state, state are variables which are saved together in an object. We call them fields or member variables.
 
 Define a pint with x and y values:
@@ -415,8 +526,7 @@ class Point {
 ```
 When we define Point we can access x and y
 
-#### methods
-```java
+#### Methods
 ```java
 class Point {
     void printPoint() {
@@ -430,119 +540,21 @@ class Point {
     }
 }
 ```
-#### public and private variable methods
+
+#### Public and Private Variable Methods
 Using the keyword private before a variable or method  restricts the use of the variable or method to only the class itself. Public allows everyone to access it. 
 Constructors are generally public, variables private, and methods are split.
-### Gradle
+
+## Gradle
 
 Go through this tutorial, which will ensure that you have Gradle installed on your computer and that you’re able to create a new application, build it, and run it.
 
-</details>
 
-# IntelliJ Overview
-
-<details markdown="block"><summary>Content</summary>
-
-## Assignment overview
-### Your first Java App
-[IntelliJ](https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html)
-https://canvas.instructure.com/courses/6504881/assignments/36513391
-
-Only complete these sections:
-
--   Creating a project
--   Exploring the project structure
--   Creating a package and a class
--   Writing code for the HelloWorld class
-    -   Using a live template for the main() method
-    -   Using code auto-completion
-    -   Using a live template for println()
--   Building and running the application
-
-**DO NOT** continue through the sections dedicated to packaging and running a packaged Java app, as we’ll be using other tools for that in the course.
-
-### Debugging Java
-[Debugging Your First Java Application](https://www.jetbrains.com/help/idea/debugging-your-first-java-application.html)
-Follow through all the directions in every section of this page.
-
--   Before you start…
--   Putting breakpoints
--   Starting a debugger session
--   Stepping through the application
-    -   Stepping through the statements directly
-    -   Stepping through the method calls
-
-Capture screenshots of your code and its output. Consolidate them into a folder and submit it into the Canvas assignment designated for the Java Tutorial prework.
-
-Capture screenshots of you debugging your code. Write something offering your own definitions and explanations for each of these debugging concepts:
-
--   Breakpoint
--   Step-to-next-line
--   Step-inside-function-call
--   Step-out-of-function-call
-
-## Your First Java App
-#### Creating a project
-![](../assets/Pasted%20image%2020230416130320.png)
-#### Exploring the project structure
-#### Creating a package and a class
-#### Writing code for the HelloWorld class
-#### Using a live template for the main() method
-#### Using code auto-completion
-#### Using a live template for println()
-#### Building and running the application
-![](../assets/Pasted%20image%2020230416133149.png)
-
-## Debugging Java
-
-Follow through all the directions in every section of this page. Topics covered:
-
-#### Before you start…Putting breakpoints
-![](../assets/Pasted%20image%2020230416141957.png)
-#### Starting a debugger session
-![](../assets/Pasted%20image%2020230416142000.png)
-#### Stepping through the application
-![](../assets/Pasted%20image%2020230416143319.png)
-![](../assets/Pasted%20image%2020230416142045.png)
-
-## Submitting Your Work
-
-Capture screenshots of your code and its output. Consolidate them into a folder and submit it into the Canvas assignment designated for the Java Tutorial prework.
-
-Capture screenshots of you debugging your code. Write something offering your own definitions and explanations for each of these debugging concepts:
-
-Breakpoint
-Defines what point you want to stop the program and begin walking through what happens during each of the following steps.
-Step-to-next-line
-The process of executing the current line and taking the exection point to the line following it in the current method
-Step-inside-function-call
-Executes the current line and steps into the called method if there is one.
-Step-out-of-function-ca
-Executes remaining lines and exits the methodstopping at the next line after the method call.
 </details>
 
 
-# Java Introduction
+# String Methods to Dive into
 
-<details markdown="block"><summary>Content</summary>
-`public` - can be accessed from anywhere
-`static` - can be accessed without creating an instance of the class
-`void` - does not return anything
-`main` - the entry point of the program
-`System` - a pre-defined class in java that holds useful methods and variables
-`System.out` - a static variable within system that represents the standard output of the program
-`println` - a method that can be used to print a line
-
-## Additional System Methods and Variables
-`System.in`: This is an instance of InputStream and is used to read input from the console. Generally used with Scanner or BufferedReader to read user input.
-
-`System.err`: This is an instance of PrintStream and is used to display error messages on the console, similar to System.out. The primary difference is that it writes to the standard error stream, allowing you to separate regular output from error messages.
-
-`System.currentTimeMillis()`: This method returns the current time in milliseconds since the epoch (January 1, 1970, 00:00:00 GMT). Useful for measuring the time taken by a piece of code or for generating timestamps.
-
-`System.nanoTime()`: Similar to System.currentTimeMillis(), but provides greater precision with nanosecond resolution. It is primarily used for measuring time intervals, not for obtaining wall-clock time
-</details>
-## String Methods to Dive into
 <details markdown="block"><summary>Content</summary>
 `charAt()`, char
   Returns the character at the specified index (position)
