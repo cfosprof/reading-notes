@@ -2,44 +2,60 @@
 
 # Readings
 
-
+## Reading
 
 [Java Imports](https://www.programiz.com/java-programming/packages-import)
 
 1.  Use an analogy to explain Built-In packages. Give examples.
-	2. 
-2.  Explain the steps for creating a new package in IntelliJ.
-	1. 
+2. Package are like tools of related items like a tackle box. You import it when you're fishing, but not when going to eat fish.
+3.  Explain the steps for creating a new package in IntelliJ.
+4. 
+5. 
 
 [Different types of loops in Java](https://www.baeldung.com/java-loops)
 
 1.  Which loop types use a loop counter?
-	1. 
-2.  Explain the difference between While and Do-While loops.
-	1. 
+> The For loop
+3.  Explain the difference between While and Do-While loops.
+> The while loop ==checks the condition prior== to executing the block of code. If it's true the loop is executed, and it continues executing until it becomes false. ==If false it doesn't execute at all==. Used when the number of times the loop should execute is unknown or if the loop shouldn't be executed at all if the condition is false from go.
+> Do-while executes the code block first and then checks the condition. It guarantees the block of code will be executed at least once. Even if the condition is initially false. Use when the code needs to be executed at least once, or you want to check the condition aafter the block of code has been executed.
+```java
+do {
+
+} while (condition)
+```
+
 
 [Java Arrays](https://www.tutorialspoint.com/java/java_arrays.htm)
 
 1.  Describe 3 built-in methods for Arrays.
-	1. 
-2.  How is the size of an array determined in Java?
+Arrays.sort(): Sorts the elements of an array in ascending order.
+Arrays.CopyOf(): Creates a new arraywith a specified length, filling default values for extra elements.
 
-# Data Structures and Algorithms
+3.  How is the size of an array determined in Java
+>At creation and it doesn't change. 
 
-## Watch
--   [Basic Recursion](https://www.youtube.com/watch?v=vPEJSJMg4jY)
--   [Data Structures in 15 Minutes](https://www.youtube.com/watch?v=sVxBVvlnJsM)
--   [Big O Explained](https://www.youtube.com/watch?v=v4cd1O4zkGw)
 
-## Read
+## Notes
+A Package is a container that groups related types(Java classes, interfaces, enumerations and annotations.
+)
 
--   [Basic Data Structures](https://towardsdatascience.com/8-common-data-structures-every-programmer-must-know-171acf6a1a42)
--   [Why Big O](https://triplebyte.com/blog/why-you-should-learn-big-o-and-stop-hacking-your-way-through-algorithms)
+### Built in packages
+Come with the JDK examples are java.lang, java.util, java.io
+### User-defined package
+Requires keyword `package` so `package packageName`
+==Like Domain names, packages must be unique, so it's commonly com.company.name.==
+It can be via import statement or by using fully qualifieed name.
+```java
+import java.util.Date;
 
-## Discussion Questions
+class MyClass implements Date {
+    // body
+}
 
-1.  What is 1 of the more important things you should consider when deciding which data structure is best suited to solve a particular problem?
-	1. 
-2.  How can we ensure that we’ll avoid an infinite recursive call stack?
-	1. 
+//or 
+class MyClass implements java.util.Date {
+    //body
+}
+```
 

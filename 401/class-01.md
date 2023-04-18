@@ -37,6 +37,23 @@ The first response in this [Reddit thread on compiling](https://www.reddit.com/
 
 </details>
 
+# Random
+You can create a Random object via the Random() constructor, which creates a new random number generator with a default seed based on the current time.
+
+## Methods
+`nextBoolean()` returns a random boolean value.
+Basically there is one of these for every primitive
+
+# Math
+`Math.pow(double a, double b)` returns value of a raised to b
+# LocalDateTime()
+Works when timezone isn't needed
+ ``"yyyy-MM-ddTHH:mm:ss"``
+`LocalDateTime.now()`: Creates a `LocalDateTime` object representing the current date-time.
+## Methods
+`getYear()`, `getMonth()`, `getDayOfMonth()`, `getHour()`, `getMinute()`, `getSecond()`: Retrieve date-time field values for each
+`plusDays(long days)`, `plusMonths(long months)`, `plusYears(long years)`, `plusHours(long hours)`, `plusMinutes(long minutes)`, `plusSeconds(long seconds)`: Adds the specified amount to the respective date-time field.
+
 # Prep: Data Structures and Algorithms
 
 ## Watch
