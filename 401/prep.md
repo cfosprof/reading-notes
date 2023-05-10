@@ -52,7 +52,7 @@
 
 <details markdown="block"><summary>Photo</summary>
 
-![](../Pasted%20image%2020230416195726.png)
+![](../assets/Pasted%20image%2020230416195726.png)
 
 </details>
 

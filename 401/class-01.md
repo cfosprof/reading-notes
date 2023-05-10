@@ -1,4 +1,4 @@
-# Class 1
+ # Class 1
 
 `==` compares the reference of two objects to determine if they are the same object in memory. `.equals` compares the content or state of the two objects to see if they have the same content.
 
