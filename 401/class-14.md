@@ -1,29 +1,33 @@
-# Class 14: Diversity & Inclusion in the Tech Industry
+Reading
+## Intro to password hashing
 
-<details markdown="block"><summary>Things</summary>
+Define the term “hashing”.
+Hashing is a one way function that takes an input of any size and produces an output of a fixed size.
 
-### <li> What occurred during the same time as the beginning of the decline of women in computer science?</li>
+Explain to a non-technical friend what a hash function does to a password.
+It shreds it up to be glued back togethre later.
+## bcrypt overview
 
-Personal computers began showing up in US homes in significant numbers. This resulted in a narrative that said computers were for boys.
+What does it mean to ‘salt’ a password?
+To make password hashing more secure by adding a random string to the password before hashing it.
 
-### <li> Why does it matter that males had been playing on computers growing up?</li>
+What piece of information would a hacker need to access in order to find the ‘salt’ string for your passwords?
+The salt is stored in the database along with the hashed password.
 
-It helped define who geeks were, and it created techie culture.
+jBCrypt (the paragraphs and code example at the top of the page)
 
-### <li> Ask the question: Why diversity matters to your tech company</li>
+How does the Blowfish block cipher handle the increased computation speed of new computers?
+It uses a key that is 448 bits long.
+What are the issue with the two most commong password hashes for Java (“Java password hash” and “Java password encryption”)?
+They are not secure enough.
 
-Because it leads to a wider range of perspectives, ideas, and approaches. It also helps us better understand our users and a more diverse user base.
 
-### <li> When are diversity efforts most successful?</li>
 
-WHen they are integrated into the company’s culture and values, rather than just becoming another box to check off.
 
-### <li> Why do diverse companies perform better?</li>
 
-Becuase they bring a wider range of perspectives. They also tend to be more innovative. They also tend to be more profitable.
 
-### <li> Give an example of how a diverse company can serve a diverse user base or vise-versa.</li>
 
-By having a diverse team, you can better understand your users and their needs. You can also better understand how to market to them, and how to make your product more accessible to them.
 
-</details>
+
+
+
